@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "target": "ES2015", //Coloca o ES5 como versão do JS a ser compilada no arquivo alvo
+        "watch": true, //Ativa o watch, para não haver necessidade de rodar o comando do compiler toda hora
+    },
+}
