@@ -1,6 +1,6 @@
 # Old David's Beverage Shop - 2.0
 
-* Bem-vindos à nova versão da Loja de Bebidas Old David!
+# Bem-vindos à nova versão da Loja de Bebidas Old David!
 
 
 <br>
