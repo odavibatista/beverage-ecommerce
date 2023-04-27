@@ -10,7 +10,7 @@ Bem-vindos à nova versão da Loja de Bebidas Old David!
 <br>
 
 Nesta nova versão, trago uma nova identidade visual para a loja virtual e para seus códigos.
-Aqui, usando os recursos do React, remonto a antiga loja com novas imagens, novas features e novos produtos, para trazer uma loja confortável e que agrade a todos os bons amantes de boas bebidas.
+Aqui, usando os recursos do React, remonto a antiga loja com novas imagens, novas features e novos produtos, para trazer uma loja confortável e que agrade a todos os bons amantes de boas bebidas!
 
 # Tecnologias e Paradigmas Utilizados
 
