@@ -1,5 +1,6 @@
 import { Product } from "../../Product";
 
+
 export const products = [
 //Energéticos
     new Product(
@@ -36,8 +37,7 @@ export const products = [
         ),
     new Product(
         "Monster Energy Original",
-        `O Original Monster Energy Green! Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular. MONSTER possui uma presença viciante e um sabor único!
-        Inconfundível!`,
+        `O Original Monster Energy Green! Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular.`,
         "Energéticos",
         6.55,
         "../src/images/products/energy-drinks/monster-energy-original.png",
@@ -63,7 +63,7 @@ export const products = [
         ),
     new Product(
         "Monster Energy Juice Pacific Punch",
-        `Com um sabor profundo e amplo, assim como o Oceano Pacífico, e com um mix de frutas nada tradicional inspirado nos clássicos ponches. Pacific Punch traz a energia Monster e chega para te deixar com vento em popa e pronto para encarar até as marés mais agitadas.`,
+        `Com um sabor profundo e amplo, assim como o Oceano Pacífico, e com um mix de frutas nada tradicional inspirado nos clássicos ponches.`,
         "Energéticos",
         7.20,
         "../src/images/products/energy-drinks/monster-juice-pacific-punch.png",
@@ -71,9 +71,7 @@ export const products = [
         ),
     new Product(
         "Monster Energy Dragon Ice Tea Limão",
-        `Reza a lenda que o Imperador Chinês Shennong acidentalmente fez a descoberta do chá quando um vento soprou algumas folhas dentro de sua chaleira.
-        Surge o Dragão... 5000 anos depois combinamos o melhor chá preto com o verdadeiro suco de limão para cria o nosso Dragon Ice Tea, feito para o gosto de um Imperador ou Imperatriz, agora disponível para todos. 
-        Dragon Ice Tea é leve, refrescante e com baixa caloria. Feito com nosso combo energético insano que dá um toque moderno a nossa fórmula original. Nasce uma nova lenda! Unleash the Dragon!`,
+        `Dragon Ice Tea é leve, refrescante e com baixa caloria. Feito com nosso combo energético insano que dá um toque moderno a nossa fórmula original. Nasce uma nova lenda! Unleash the Dragon!`,
         "Energéticos",
         7.35,
         "../src/images/products/energy-drinks/monster-dragon-tea-lemon.png",
@@ -81,8 +79,7 @@ export const products = [
         ),
     new Product(
         "Monster Energy Dragon Ice Tea Pêssego",
-        `Combinamos o melhor chá de pêssego com a energia de Monster e criamos Monster Dragon Ice Tea. O chá gelado é leve, refrescante e com baixa caloria. 
-        Dragon Ice Tea Pêssego celebra a origem da sua bebida, mas do nosso jeito: cheio de energia e pronto para o consumo.`,
+        `Combinamos o melhor chá de pêssego com a energia de Monster e criamos Monster Dragon Ice Tea. O chá gelado é leve, refrescante e com baixa caloria.`,
         "Energéticos",
         8.19,
         "../src/images/products/energy-drinks/monster-dragon-tea-peach.png",
@@ -154,7 +151,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Vienna Lager Hebling 300ml",
-        `O estilo Vienna Lager foi desenvolvido por Anton Dreher em 1841 em Vienna, capital da Áustria, tornando-se popular em meados de 1800. Hoje, próximo da extinção em sua região de origem, o estilo continua vivo nas Américas, especialmente no México, onde foi trazido por Santiago Graf e outros cervejeiros imigrantes austríacos no final do século XIX. A Hebling preserva o estilo, o qual valoriza as notas complexas de malte e lúpulo equilibrado.`,
+        `O estilo Vienna Lager foi desenvolvido por Anton Dreher em 1841 em Vienna, capital da Áustria, tornando-se popular em meados de 1800. A Hebling preserva o estilo, o qual valoriza as notas complexas de malte e lúpulo equilibrado.`,
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-vienna-lager-300ml.png",
@@ -162,7 +159,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Pilsen Hebling 300ml",
-        `Criada em 1842, pelo alemão Josef Groll, na cidade de Pilsen, atual República Tcheca, utilizando-se de novos métodos de fabricação e fermentação à frio, cria-se uma nova era na produção de cerveja, obtendo um produto leve, dourado e cristalino, características que tornariam o estilo Pilsen o mais popular do mundo.`,
+        `Criada em 1842, pelo alemão Josef Groll, na cidade de Pilsen, atual República Tcheca, utilizando-se de novos métodos de fabricação e fermentação à frio, cria-se uma nova era na produção de cerveja, obtendo um produto leve, dourado e cristalino.`,
         "Cervejas",
         8.14,
         "../src/images/products/beers/hebling-beer-pilsen-300ml.png",
@@ -170,7 +167,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Weiss Hebling 300ml",
-        `A Hebling Weiss é uma autêntica cerveja de trigo, tradicional do sul da Alemanha. É refrescante, frutada e encorpada, aroma suave de banana e cravo provenientes da fermentação, com leve dulçor residual, produz um creme denso e persistente, de coloração laranja opaco e baixo teor alcoólico. Acompanhamento perfeito para pratos alemães.`,
+        `A Hebling Weiss é uma autêntica cerveja de trigo, tradicional do sul da Alemanha. É refrescante, frutada e encorpada, aroma suave de banana e cravo provenientes da fermentação.`,
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-weiss-300ml.png",
@@ -178,7 +175,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Brown Porter Hebling 300ml",
-        `Rica em sabores que remetem ao chocolate amargo e ao café, provenientes do uso de maltes caramelizados e torrados, a Hebling Brown Porter transporta seus apreciadores para Londres no século 18, onde trabalhadores do porto, após uma longa jornada de trabalho, “tiravam o pó da garganta” e revigoravam suas forças com um “pint” desse tipo de cerveja nutritiva e saborosa.`,
+        `Rica em sabores que remetem ao chocolate amargo e ao café, provenientes do uso de maltes caramelizados e torrados, a Hebling Brown Porter transporta seus apreciadores para a Londres do século 18.`,
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-brown-porter-300ml.png",
@@ -186,7 +183,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Irish Red Ale Hebling 300ml",
-        `A Hebling Irish Red Ale é uma cerveja de cor cobre, baixo amargor e notas de toffee, caramelo e malte tostado.  Uma possível origem para o estilo data de 1710 na cidade de Kilkenny na Irlanda, quando fabricantes de cerveja começaram a adicionar cevada torrada a receitas de English Pale Ale, com o intuito de adicionar um pouco mais de cor e um leve sabor torrado e mais seco à cerveja, porém, mantendo-a leve e fácil de beber.`,
+        `A Hebling Irish Red Ale é uma cerveja de cor cobre, baixo amargor e notas de toffee, caramelo e malte tostado, porém, leve e fácil de beber.`,
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-irish-red-ale-300ml.png",
@@ -194,7 +191,7 @@ export const products = [
         ),
     new Product(
         "Cerveja Pumpkin Ale Hebling 300ml",
-        `Cerveja tradicional norte-americana. Samuel Stearns escreveu sobre os benefícios de tomar cervejas de abóbora em seu livro "The American Herbal or Materia Medica (1801)". Atualmente, muitas cervejarias artesanais produzem esse estilo histórico de cerveja. A Hebling Pumpkin Ale utiliza abóboras frescas, açúcar e cravo em flor, proporcionado aromas e sabores marcantes à cerveja.`,
+        `Cerveja tradicional norte-americana. A Hebling Pumpkin Ale utiliza abóboras frescas, açúcar e cravo em flor, proporcionado aromas e sabores marcantes à cerveja.`,
         "Cervejas",
         10.39,
         "../src/images/products/beers/hebling-beer-pumpkin-ale-300ml.png",
@@ -202,7 +199,7 @@ export const products = [
         ),
     new Product(
         "Pink Lemonade Hebling 300ml",
-        `A invenção da limonada cor-de-rosa é atribuída ao trabalhador de circo Henry E. "Sanchez" Allott, que acidentalmente, derrubou balas de canela na limonada que vendia. Hoje, essa variedade de limonada é feita com frutas vermelhas e serviu de inspiração para nossa cerveja, a Hebling Pink Limonade. Feita com suco concentrado de limão e polpa de framboesa, é leve, ácida e muito refrescante. Uma boa opção para acompanhar sobremesa ou substituí-las. À votre Santé!`,
+        `A invenção da limonada cor-de-rosa é atribuída ao trabalhador de circo Henry E. "Sanchez" Allott, que acidentalmente, derrubou balas de canela na limonada que vendia. Hebling Pink Limonade é uma boa opção para acompanhar sobremesa ou substituí-las. À votre Santé!`,
         "Drinks",
         9.24,
         "../src/images/products/drinks/hebling-drink-pink-lemonade-300ml.png",
