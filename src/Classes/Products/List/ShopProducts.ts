@@ -240,14 +240,6 @@ export const products = [
         "../src/images/products/.png",
         ""
         ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        ""
-        ),
 
 
 ]
