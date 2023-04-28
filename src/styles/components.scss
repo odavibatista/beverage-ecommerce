@@ -5,65 +5,134 @@
     padding: 0;
     box-sizing: border-box;
     font-family: $sns;
+    line-height: 1;
 }
 
+body    {
+    background-color: $background;
+}
+
+
+
 #products-container {
+    padding-top: 50px;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 60px;
+
+    h1  {
+        text-align: center;
+        font-size: 38px;
+        font-family: 'Montserrat'
+    }
 }
 
 .product-card   {
-    height: 580px;
+    height: 545px;
     border-radius: 10px;
     text-align: left;
     width: 250px;
     display: flex;
     flex-direction: column;
     background-color: $primary;
-    gap: 5px;
+    gap: 10px;
     padding: 15px;
+    transition: 0.4s;
+
 
     span    {
+        z-index: 1;
         position: absolute;
+        font-size: 14px;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
         background-color: beige;
-        width: 120px;
+        width: 110px;
         padding: 10px;
         font-weight: bold;
         border-radius: 10px;
+        transition: 0.4s;
+        line-height: 1;
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0.93);
+        }
     }
 
     h2  {
-        height: 75px;
-        font-size: 20px;
+        line-height: 1;
+        height: 95px;
+        font-size: 22px;
         font-weight: bolder;
         font-family: 'Courier New', Courier, monospace;
         border-bottom: 4px solid goldenrod;
+        
+    }
+
+    h4  {
+        margin: 0px;
+        padding: 0px;
+        line-height: 1;
     }
 
     img {
         align-self: center;
-        width: 220px;
+        width: 180px;
     }
 
     p   {
+        line-height: 1;
         font-weight: 800;
         font-family: 'Courier New', Courier, monospace;
-        height: 160px;
-        width: 200px;
+        height: 180px;
+        width: 220px;
         font-size: 14px;
     }
 
-    button  {
-        font-weight: bold;
-        width: 155px;
-        background-color: black;
+
+    a   {
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
         color: $primary;
-        padding: 5px;
-        border-radius: 10px;
-        margin-top: 30px;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover {
+            color: black;
+            cursor: pointer;
+        }
+        button  {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 12px;
+            width: 170px;
+            background-color: black;
+            color: $primary;
+            padding: 5px;
+            border-radius: 10px;
+            margin-top: 10px;
+            transition: 0.6s;
+            border: 3px solid transparent;
+            &:hover {
+                border: 3px solid black;
+                background-color: $primary;
+                color: black;
+                cursor: pointer;
+                width: 220px;
+                
+            }
+    
+        }
     }
+    
+}
+
+.sold-out   {
+    z-index: 0;
+    filter: saturate(0);
 }

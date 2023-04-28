@@ -1,35 +1,41 @@
 import { products } from "../../Classes/Products/List/ShopProducts.js";
 import { ProductCard } from "../ProductCard/ProductCard.jsx";
 
+
+
 export function ProductsContainer   ()  {
     let productOne = Math.floor(Math.random()*20 + 1)
     let productTwo = Math.floor(Math.random()*20 + 1)
     if(productTwo === productOne)   productTwo = Math.floor(Math.random()*20 + 1)
     let productThree = Math.floor(Math.random()*20 + 1)
     if(productThree === productOne || productThree === productTwo)   productThree = Math.floor(Math.random()*20 + 1)
-    
+    let productFour = Math.floor(Math.random()*20 + 1)
+    if(productFour === productOne || productFour === productTwo || productFour === productThree)   productFour = Math.floor(Math.random()*20 + 1)
+    let productFive = Math.floor(Math.random()*20 + 1)
+    if(productFive === productOne || productFive === productTwo || productFive === productThree || productFive === productFour)   productFive = Math.floor(Math.random()*20 + 1)
+    let productSix = Math.floor(Math.random()*20 + 1)
+    if(productSix === productOne || productSix === productTwo || productSix === productThree || productSix === productFour || productSix === productFive)   productSix = Math.floor(Math.random()*20 + 1)
+
     return (
     <main id="products-container">
+        <h1>Confira as nossas bebidas e encontre a que mais te agrade!</h1>
         <ProductCard
-        name={products[productOne].name}
-        description={products[productOne].description}
-        kind={products[productOne].kind}
-        price={products[productOne].price}
-        imgUrl={products[productOne].imgUrl}
+            product={products[productOne]}
         />
         <ProductCard
-        name={products[productTwo].name}
-        description={products[productTwo].description}
-        kind={products[productTwo].kind}
-        price={products[productTwo].price}
-        imgUrl={products[productTwo].imgUrl}
+            product={products[productTwo]}
         />
         <ProductCard
-        name={products[productThree].name}
-        description={products[productThree].description}
-        kind={products[productThree].kind}
-        price={products[productThree].price}
-        imgUrl={products[productThree].imgUrl}
+            product={products[productThree]}
+        />
+        <ProductCard
+            product={products[productFour]}
+        />
+        <ProductCard
+            product={products[productFive]}
+        />
+        <ProductCard
+            product={products[productSix]}
         />
     </main>
     )

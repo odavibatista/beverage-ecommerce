@@ -9,7 +9,8 @@ export const products = [
         "Energéticos",
         6.90,
         "../src/images/products/energy-drinks/monster-juice-mango-loco.png",
-        "energy-drinks"
+        "energy-drinks",
+        31
         ),
     new Product(
         "Monster Energy Ultra Violet",
@@ -17,7 +18,8 @@ export const products = [
         "Energéticos",
         7.20,
         "../src/images/products/energy-drinks/monster-ultra-violet.png",
-        "energy-drinks"
+        "energy-drinks",
+        51
         ),
     new Product(
         "Monster Energy Zero Ultra ",
@@ -25,7 +27,8 @@ export const products = [
         "Energéticos",
         7.35,
         "../src/images/products/energy-drinks/monster-zero-ultra.png",
-        "energy-drinks"
+        "energy-drinks",
+        81
         ),
     new Product(
         "Monster Ultra Paradise",
@@ -33,7 +36,8 @@ export const products = [
         "Energéticos",
         6.90,
         "../src/images/products/energy-drinks/monster-ultra-paradise.png",
-        "energy-drinks"
+        "energy-drinks",
+        65
         ),
     new Product(
         "Monster Energy Original",
@@ -41,7 +45,8 @@ export const products = [
         "Energéticos",
         6.55,
         "../src/images/products/energy-drinks/monster-energy-original.png",
-        "energy-drinks"
+        "energy-drinks",
+        44
         ),
     new Product(
         "Monster Energy Zero Ultra ",
@@ -49,7 +54,8 @@ export const products = [
         "Energéticos",
         6.15,
         "../src/images/products/energy-drinks/monster-energy-absolutely-zero.png",
-        "energy-drinks"
+        "energy-drinks",
+        33
         ),
     new Product(
         "Monster Energy Juice Khaos",
@@ -59,7 +65,8 @@ export const products = [
         "Energéticos",
         6.90,
         "../src/images/products/energy-drinks/monster-juice-khaos.png",
-        "energy-drinks"
+        "energy-drinks",
+        15
         ),
     new Product(
         "Monster Energy Juice Pacific Punch",
@@ -67,7 +74,8 @@ export const products = [
         "Energéticos",
         7.20,
         "../src/images/products/energy-drinks/monster-juice-pacific-punch.png",
-        "energy-drinks"
+        "energy-drinks",
+        20
         ),
     new Product(
         "Monster Energy Dragon Ice Tea Limão",
@@ -75,7 +83,8 @@ export const products = [
         "Energéticos",
         7.35,
         "../src/images/products/energy-drinks/monster-dragon-tea-lemon.png",
-        "energy-drinks"
+        "energy-drinks",
+        94
         ),
     new Product(
         "Monster Energy Dragon Ice Tea Pêssego",
@@ -83,7 +92,8 @@ export const products = [
         "Energéticos",
         8.19,
         "../src/images/products/energy-drinks/monster-dragon-tea-peach.png",
-        "energy-drinks"
+        "energy-drinks",
+        5
         ),
     new Product(
         "Red Bull Energy Drink",
@@ -91,7 +101,8 @@ export const products = [
         "Energéticos",
         9.59,
         "../src/images/products/energy-drinks/red-bull-energy-drink.png",
-        "energy-drinks"
+        "energy-drinks",
+        25
         ),
     new Product(
         "Red Bull Energy Drink Sugarfree",
@@ -99,7 +110,8 @@ export const products = [
         "Energéticos",
         10.19,
         "../src/images/products/energy-drinks/red-bull-energy-drink-sugarfree.png",
-        "energy-drinks"
+        "energy-drinks",
+        51
         ),
     new Product(
         "Red Bull Açaí Edition",
@@ -107,7 +119,8 @@ export const products = [
         "Energéticos",
         11.45,
         "../src/images/products/energy-drinks/red-bull-energy-drink-acai.png",
-        "energy-drinks"
+        "energy-drinks",
+        14
         ),
     new Product(
         "Red Bull Pitaya Edition",
@@ -115,7 +128,8 @@ export const products = [
         "Energéticos",
         10.95,
         "../src/images/products/energy-drinks/red-bull-energy-drink-pitaya.png",
-        "energy-drinks"
+        "energy-drinks",
+        2
         ),
     new Product(
         "Red Bull Winter Edition",
@@ -123,7 +137,8 @@ export const products = [
         "Energéticos",
         10.30,
         "../src/images/products/energy-drinks/red-bull-energy-drink-winter.png",
-        "energy-drinks"
+        "energy-drinks",
+        0
         ),
     new Product(
         "Red Bull Tropical Edition",
@@ -131,7 +146,8 @@ export const products = [
         "Energéticos",
         12.15,
         "../src/images/products/energy-drinks/red-bull-energy-drink-tropical.png",
-        "energy-drinks"
+        "energy-drinks",
+        4
         ),
     new Product(
         "Red Bull Coco Edition",
@@ -139,7 +155,8 @@ export const products = [
         "Energéticos",
         11.85,
         "../src/images/products/energy-drinks/red-bull-energy-drink-coco.png",
-        "energy-drinks"
+        "energy-drinks",
+        25
         ),
     new Product(
         "Red Bull Melancia Edition",
@@ -147,7 +164,8 @@ export const products = [
         "Energéticos",
         10.95,
         "../src/images/products/energy-drinks/red-bull-energy-drink-melancia.png",
-        "energy-drinks"
+        "energy-drinks",
+        18
         ),
     new Product(
         "Cerveja Vienna Lager Hebling 300ml",
@@ -155,15 +173,17 @@ export const products = [
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-vienna-lager-300ml.png",
-        "beers"
+        "beers",
+        40
         ),
     new Product(
         "Cerveja Pilsen Hebling 300ml",
-        `Criada em 1842, pelo alemão Josef Groll, na cidade de Pilsen, atual República Tcheca, utilizando-se de novos métodos de fabricação e fermentação à frio, cria-se uma nova era na produção de cerveja, obtendo um produto leve, dourado e cristalino.`,
+        `Criada em 1842, pelo alemão Josef Groll, na cidade de Pilsen, atual República Tcheca, utilizando-se de novos métodos de fabricação e fermentação à frio.`,
         "Cervejas",
         8.14,
         "../src/images/products/beers/hebling-beer-pilsen-300ml.png",
-        "beers"
+        "beers",
+        66
         ),
     new Product(
         "Cerveja Weiss Hebling 300ml",
@@ -171,7 +191,8 @@ export const products = [
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-weiss-300ml.png",
-        "beers"
+        "beers",
+        91
         ),
     new Product(
         "Cerveja Brown Porter Hebling 300ml",
@@ -179,7 +200,8 @@ export const products = [
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-brown-porter-300ml.png",
-        "beers"
+        "beers",
+        0
         ),
     new Product(
         "Cerveja Irish Red Ale Hebling 300ml",
@@ -187,7 +209,8 @@ export const products = [
         "Cervejas",
         9.24,
         "../src/images/products/beers/hebling-beer-irish-red-ale-300ml.png",
-        "beers"
+        "beers",
+        42
         ),
     new Product(
         "Cerveja Pumpkin Ale Hebling 300ml",
@@ -195,7 +218,8 @@ export const products = [
         "Cervejas",
         10.39,
         "../src/images/products/beers/hebling-beer-pumpkin-ale-300ml.png",
-        "beers"
+        "beers",
+        28
         ),
     new Product(
         "Pink Lemonade Hebling 300ml",
@@ -203,7 +227,8 @@ export const products = [
         "Drinks",
         9.24,
         "../src/images/products/drinks/hebling-drink-pink-lemonade-300ml.png",
-        "drinks"
+        "drinks",
+        2
         ),
     new Product(
         "",
@@ -211,7 +236,8 @@ export const products = [
         "",
         0,
         "../src/images/products/.png",
-        ""
+        "",
+        0
         ),
     new Product(
         "",
@@ -219,7 +245,8 @@ export const products = [
         "",
         0,
         "../src/images/products/.png",
-        ""
+        "",
+        0
         ),
     new Product(
         "",
@@ -227,7 +254,8 @@ export const products = [
         "",
         0,
         "../src/images/products/.png",
-        ""
+        "",
+        0
         ),
     new Product(
         "",
@@ -235,7 +263,8 @@ export const products = [
         "",
         0,
         "../src/images/products/.png",
-        ""
+        "",
+        0
         ),
 
 

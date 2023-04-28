@@ -1,8 +1,8 @@
 {
   "name": "beverage-shop",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "2.0.0",
+  "type": "commonjs",
   "scripts": {
     "tsc-watch": "tsc",
     "dev": "vite",
@@ -11,8 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sequelize": "^6.31.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
