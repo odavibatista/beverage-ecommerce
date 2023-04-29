@@ -23,4 +23,43 @@
       border: 3px solid black;
     }
   }
+
+  .dropdown-menu{
+    width: 155px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+    background-color: $primary;
+    border: 2px solid black;
+    height: 255px;
+
+    .li-dropdown  {
+      text-align: center;
+      width: 155px;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      background-color: $primary;
+
+
+  
+      .dropdown-item  {
+        width: 155px;
+        text-align: center;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        transition: 0.4s;
+
+        &:hover {
+          background-color: $background;
+        }
+      }
+    }
+  }
+
+
+
 }
