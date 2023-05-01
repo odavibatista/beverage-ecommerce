@@ -11,7 +11,7 @@ export function FirstContainer  ()  {
                         <img src="../src/images/site/carousel/slide-2.png" className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..."/>
+                        <img src="../src/images/site/carousel/slide-3.png" className="d-block w-100" alt="..."/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
