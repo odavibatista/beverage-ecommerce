@@ -1,4 +1,5 @@
 import { products } from "../../Classes/Products/List/ShopProducts.js";
+import { inStock } from "../../Classes/Products/List/InStock.js"
 import { ProductCard } from "../ProductCard/ProductCard.jsx";
 
 
@@ -20,22 +21,22 @@ export function ProductsContainer   ()  {
     <main id="products-container">
         <h1>Confira as nossas bebidas e encontre a que mais te agrade!</h1>
         <ProductCard
-            product={products[productOne]}
+            product={inStock[productOne]}
         />
         <ProductCard
-            product={products[productTwo]}
+            product={inStock[productTwo]}
         />
         <ProductCard
-            product={products[productThree]}
+            product={inStock[productThree]}
         />
         <ProductCard
-            product={products[productFour]}
+            product={inStock[productFour]}
         />
         <ProductCard
-            product={products[productFive]}
+            product={inStock[productFive]}
         />
         <ProductCard
-            product={products[productSix]}
+            product={inStock[productSix]}
         />
     </main>
     )
