@@ -223,7 +223,7 @@ export const products = [
         ),
     new Product(
         "Pink Lemonade Hebling 300ml",
-        `A invenção da limonada cor-de-rosa é atribuída ao trabalhador de circo Henry E. "Sanchez" Allott, que acidentalmente, derrubou balas de canela na limonada que vendia. Hebling Pink Limonade é uma boa opção para acompanhar sobremesa ou substituí-las. À votre Santé!`,
+        `A invenção da limonada cor-de-rosa é atribuída ao trabalhador de circo Henry E. "Sanchez" Allott, que acidentalmente, derrubou balas de canela na limonada que vendia. À votre Santé!`,
         "Drinks",
         9.24,
         "../src/images/products/drinks/hebling-drink-pink-lemonade-300ml.png",
@@ -381,3 +381,4 @@ export const products = [
 
         
 ]
+
