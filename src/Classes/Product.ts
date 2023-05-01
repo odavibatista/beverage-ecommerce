@@ -2,10 +2,10 @@ export class Product   {
     protected name
     protected description
     protected kind
-    protected price
+    public price
     protected imgUrl
-    protected cathegory
-    protected inStock
+    public cathegory
+    public inStock
 
     constructor(name: string, description: string, kind: string, price: number, imgUrl: string, cathegory: string, inStock: number) {
         this.name = name
