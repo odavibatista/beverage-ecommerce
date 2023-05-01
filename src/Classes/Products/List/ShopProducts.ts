@@ -231,6 +231,78 @@ export const products = [
         2
         ),
     new Product(
+        "Cerveja Cacildis Lata 350ml",
+        `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares, apresenta uma coloração dourada e um sabor super refrescante. Versão em lata 350ml.`,
+        "Cervejas",
+        8.25,
+        "../src/images/products/beers/cacildes-beer-puro-malte-350ml.png",
+        "beers",
+        13
+        ),
+    new Product(
+        "Cerveja Cacildis Garrafa 330ml",
+        `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares, apresenta uma coloração dourada e um sabor super refrescante. Versão em long neck 330ml.`,
+        "Cervejas",
+        7.40,
+        "../src/images/products/beers/cacildes-beer-puro-malte-330ml.png",
+        "beers",
+        0
+        ),
+    new Product(
+        "Cerveja Cacildis Garrafa 600ml",
+        `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares, apresenta uma coloração dourada e um sabor super refrescante. Versão em long neck 600ml`,
+        "Cervejas",
+        13.45,
+        "../src/images/products/beers/cacildes-beer-puro-malte-600ml.png",
+        "beers",
+        40
+        ),
+    new Product(
+        "Cerveja Trapista Westmalle Tripel 330ml",
+        `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial. Saboreie este pedaço tão importante da história da Igreja Católica! Fabricada pelos monges de Westmalle.`,
+        "Cervejas - Premium",
+        40.50,
+        "../src/images/products/beers/trappist-beer-westmalle-tripel-330ml.png",
+        "premium",
+        23
+        ),
+    new Product(
+        "Cerveja Trapista La Trappe Tripel 330ml",
+        `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial. Saboreie este pedaço tão importante da história da Igreja Católica!.`,
+        "Cervejas - Premium",
+        52.39,
+        "../src/images/products/beers/trappist-beer-latrappe-tripel-330ml.png",
+        "premium",
+        0
+        ),
+    new Product(
+        "Cerveja Trapista Westmalle Dubbel 330ml",
+        `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial. Saboreie este pedaço tão importante da história da Igreja Católica!.`,
+        "Cervejas - Premium",
+        48.25,
+        "../src/images/products/beers/trappist-beer-latrappe-dubbel-330ml.png",
+        "premium",
+        13
+        ),
+    new Product(
+        "Cerveja Trapista Chimmay Blue 330ml",
+        `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial. Saboreie este pedaço tão importante da história da Igreja Católica!. Versão Blue.`,
+        "Cervejas - Premium",
+        58.23,
+        "../src/images/products/beers/trappist-beer-chimay-blue-330ml.png",
+        "premium",
+        2
+        ),
+    new Product(
+        "Cerveja Trapista La Trappe Blond 330ml",
+        `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial. Saboreie este pedaço tão importante da história da Igreja Católica!. Versão Blond.`,
+        "Cervejas - Premium",
+        51.37,
+        "../src/images/products/trappist-beer-latrappe-blond-330ml.png",
+        "premium",
+        8
+        ),
+    new Product(
         "",
         ``,
         "",
@@ -239,6 +311,15 @@ export const products = [
         "",
         0
         ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),        
     new Product(
         "",
         ``,
@@ -266,6 +347,37 @@ export const products = [
         "",
         0
         ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),        
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        
 ]

@@ -31,10 +31,10 @@
     text-align: center;
     transition: 0.5s;
     background-color: $primary;
-    border: 2px solid black;
     height: 255px;
 
     .li-dropdown  {
+      transition: 0.5s;
       text-align: center;
       width: 155px;
       align-content: center;
