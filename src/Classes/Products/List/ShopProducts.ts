@@ -348,6 +348,150 @@ export const products = [
         0
         ),
     new Product(
+        "Hidromel Heddveld Sigrid 750ml",
+        `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
+        "Fermentados",
+        68.24,
+        "../src/images/products/fermenteds/hidromel-sigrid-750ml.png",
+        "fermenteds",
+        21
+        ),
+    new Product(
+        "Hidromel Oldpony Aegir Doce 750ml",
+        `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
+        "Fermentados",
+        59.32,
+        "../src/images/products/fermenteds/hidromel-oldpony-aegir-doce-750ml.png",
+        "fermenteds",
+        4
+        ),
+    new Product(
+        "Hidromel Ascalon Norseman Suave 750ml",
+        `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
+        "Fermentados",
+        80.22,
+        "../src/images/products/fermenteds/hidromel-ascalon-norseman-suave-750ml.png",
+        "fermenteds",
+        0
+        ),
+    new Product(
+        "Hidromel Valhala Tradicional Suave 750ml",
+        `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
+        "Fermentados",
+        84.49,
+        "../src/images/products/fermenteds/hidromel-valhala-tradicional-suave-750ml.png",
+        "fermenteds",
+        12
+        ),
+    new Product(
+        "Hidromel Valhala Red Fruits 750ml",
+        `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
+        "Fermentados",
+        86.01,
+        "../src/images/products/fermenteds/hidromel-valhala-red-fruits-750ml.png",
+        "fermenteds",
+        3
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
         "",
         ``,
         "",
@@ -365,20 +509,104 @@ export const products = [
         "",
         0
         ),        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),    
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
 ]
 
