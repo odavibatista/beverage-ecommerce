@@ -12,10 +12,12 @@ body    {
     background-color: $background;
 }
 
-
+#first-container    {
+    width: 80%;
+    margin: 50px auto;
+}
 
 #products-container {
-    padding-top: 50px;
     width: 900px;
     margin: 0 auto;
     justify-content: center;

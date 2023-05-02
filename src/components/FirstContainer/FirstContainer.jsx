@@ -2,6 +2,7 @@
 
 export function FirstContainer  ()  {
     return(
+        <div id="first-container">
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -23,5 +24,7 @@ export function FirstContainer  ()  {
                     <span className="visually-hidden"></span>
                 </button>
             </div>
+        </div>
+
     )
 }
