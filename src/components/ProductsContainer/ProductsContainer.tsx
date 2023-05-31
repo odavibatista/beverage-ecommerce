@@ -1,6 +1,5 @@
-import { products } from "../../Classes/Products/List/ShopProducts.js";
-import { inStock } from "../../Classes/Products/List/InStock.js"
-import { ProductCard } from "../ProductCard/ProductCard.jsx";
+import { inStock } from "../../Classes/Products/List/InStock.ts"
+import { ProductCard } from "../ProductCard/ProductCard.tsx";
 
 
 

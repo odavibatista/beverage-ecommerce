@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  vite: &vite
+    hostname: vite
+    command: npm run create
+    image: node:18
+    
+    build:
+      context: .
+      dockerfile: Dockerfile
