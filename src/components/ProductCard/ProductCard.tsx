@@ -1,4 +1,4 @@
-import { products } from "../../Classes/Products/List/ShopProducts.js"
+import { products } from "../../Classes/Products/List/ShopProducts.ts"
 
 export function ProductCard ({product})  {
     return  (
