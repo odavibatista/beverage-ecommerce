@@ -8,7 +8,7 @@ export const products = [
         `Refrescante energético Monster com sabor de suco de manga, adoce o seu dia com este saboroso refresco inspirado no Dia de Los Muerto Mexicano.`,
         "Energéticos",
         6.90,
-        "../src/images/products/energy-drinks/monster-juice-mango-loco.png",
+        "./src/images/products/energy-drinks/monster-juice-mango-loco.png",
         "energy-drinks",
         31
         ),
@@ -17,7 +17,7 @@ export const products = [
         `Inspirado nos anos 70. Época de atitude livre e positiva, com um estilo único e inconfundível, tempo onde o psicodélico, glamour, heavy metal e rock se misturaram em uma harmonia única.`,
         "Energéticos",
         7.20,
-        "../src/images/products/energy-drinks/monster-ultra-violet.png",
+        "./src/images/products/energy-drinks/monster-ultra-violet.png",
         "energy-drinks",
         51
         ),
@@ -26,7 +26,7 @@ export const products = [
         `Mais refrescante. Mais leve. Monster Energy Zero Ultra é zero açúcar, zero calorias e uma carga completa de nossa mistura de energia Monster.`,
         "Energéticos",
         7.35,
-        "../src/images/products/energy-drinks/monster-zero-ultra.png",
+        "./src/images/products/energy-drinks/monster-zero-ultra.png",
         "energy-drinks",
         81
         ),
@@ -35,7 +35,7 @@ export const products = [
         `Refrescante energético Monster com sabor de suco de manga, adoce o seu dia com este saboroso refresco inspirado no Dia de Los Muerto Mexicano.`,
         "Energéticos",
         6.90,
-        "../src/images/products/energy-drinks/monster-ultra-paradise.png",
+        "./src/images/products/energy-drinks/monster-ultra-paradise.png",
         "energy-drinks",
         65
         ),
@@ -44,7 +44,7 @@ export const products = [
         `O Original Monster Energy Green! Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular.`,
         "Energéticos",
         6.55,
-        "../src/images/products/energy-drinks/monster-energy-original.png",
+        "./src/images/products/energy-drinks/monster-energy-original.png",
         "energy-drinks",
         44
         ),
@@ -53,7 +53,7 @@ export const products = [
         `Mais refrescante. Mais leve. Monster Energy Zero Ultra é zero açúcar, zero calorias e uma carga completa de nossa mistura de energia Monster.`,
         "Energéticos",
         6.15,
-        "../src/images/products/energy-drinks/monster-energy-absolutely-zero.png",
+        "./src/images/products/energy-drinks/monster-energy-absolutely-zero.png",
         "energy-drinks",
         33
         ),
@@ -64,7 +64,7 @@ export const products = [
         Parte suco natural, 100% Monster`,
         "Energéticos",
         6.90,
-        "../src/images/products/energy-drinks/monster-juice-khaos.png",
+        "./src/images/products/energy-drinks/monster-juice-khaos.png",
         "energy-drinks",
         15
         ),
@@ -73,7 +73,7 @@ export const products = [
         `Com um sabor profundo e amplo, assim como o Oceano Pacífico, e com um mix de frutas nada tradicional inspirado nos clássicos ponches.`,
         "Energéticos",
         7.20,
-        "../src/images/products/energy-drinks/monster-juice-pacific-punch.png",
+        "./src/images/products/energy-drinks/monster-juice-pacific-punch.png",
         "energy-drinks",
         20
         ),
@@ -91,7 +91,7 @@ export const products = [
         `Combinamos o melhor chá de pêssego com a energia de Monster e criamos Monster Dragon Ice Tea. O chá gelado é leve, refrescante e com baixa caloria.`,
         "Energéticos",
         8.19,
-        "../src/images/products/energy-drinks/monster-dragon-tea-peach.png",
+        "./src/images/products/energy-drinks/monster-dragon-tea-peach.png",
         "energy-drinks",
         5
         ),
@@ -100,7 +100,7 @@ export const products = [
         `Red Bull Energy Drink é apreciado no mundo todo por atletas de elite, profissionais dinâmicos, estudantes ativos e motoristas em viagens longas.`,
         "Energéticos",
         9.59,
-        "../src/images/products/energy-drinks/red-bull-energy-drink.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink.png",
         "energy-drinks",
         25
         ),
@@ -109,7 +109,7 @@ export const products = [
         `Asas sem açúcares: o Red Bull Sugarfree é Red Bull Energy Drink sem açúcares.`,
         "Energéticos",
         10.19,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-sugarfree.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-sugarfree.png",
         "energy-drinks",
         51
         ),
@@ -118,7 +118,7 @@ export const products = [
         `O Red Bull Açaí Edition contém os mesmos ingredientes de alta qualidade do Red Bull Energy Drink e tem sabor de açaí.`,
         "Energéticos",
         11.45,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-acai.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-acai.png",
         "energy-drinks",
         14
         ),
@@ -127,7 +127,7 @@ export const products = [
         `O Red Bull Pitaya Edition contém os mesmos ingredients de alta qualidade do Red Bull Energy Drink e tem o sabor de pitaya.`,
         "Energéticos",
         10.95,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-pitaya.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-pitaya.png",
         "energy-drinks",
         2
         ),
@@ -136,7 +136,7 @@ export const products = [
         `O Red Bull Winter Edition contém os mesmos ingredientes de qualidade do Red Bull Energy Drink e tem o sabor de cereja e frutas silvestres.`,
         "Energéticos",
         10.30,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-winter.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-winter.png",
         "energy-drinks",
         0
         ),
@@ -145,7 +145,7 @@ export const products = [
         `O Red Bull Winter Edition contém os mesmos ingredientes de qualidade do Red Bull Energy Drink e tem o sabor de frutas tropicais.`,
         "Energéticos",
         12.15,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-tropical.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-tropical.png",
         "energy-drinks",
         4
         ),
@@ -154,7 +154,7 @@ export const products = [
         `O Red Bull Winter Edition contém os mesmos ingredientes de qualidade do Red Bull Energy Drink e tem o sabor de coco e açaí.`,
         "Energéticos",
         11.85,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-coco.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-coco.png",
         "energy-drinks",
         25
         ),
@@ -163,7 +163,7 @@ export const products = [
         `Experimente o novo e refrescante sabor de melancia do Red Bull Melancia Edition.`,
         "Energéticos",
         10.95,
-        "../src/images/products/energy-drinks/red-bull-energy-drink-melancia.png",
+        "./src/images/products/energy-drinks/red-bull-energy-drink-melancia.png",
         "energy-drinks",
         18
         ),
@@ -172,7 +172,7 @@ export const products = [
         `O estilo Vienna Lager foi desenvolvido por Anton Dreher em 1841 em Vienna, capital da Áustria, tornando-se popular em meados de 1800. A Hebling preserva o estilo, o qual valoriza as notas complexas de malte e lúpulo equilibrado.`,
         "Cervejas",
         9.24,
-        "../src/images/products/beers/hebling-beer-vienna-lager-300ml.png",
+        "./src/images/products/beers/hebling-beer-vienna-lager-300ml.png",
         "beers",
         40
         ),
@@ -181,7 +181,7 @@ export const products = [
         `Criada em 1842, pelo alemão Josef Groll, na cidade de Pilsen, atual República Tcheca, utilizando-se de novos métodos de fabricação e fermentação à frio.`,
         "Cervejas",
         8.14,
-        "../src/images/products/beers/hebling-beer-pilsen-300ml.png",
+        "./src/images/products/beers/hebling-beer-pilsen-300ml.png",
         "beers",
         66
         ),
@@ -190,7 +190,7 @@ export const products = [
         `A Hebling Weiss é uma autêntica cerveja de trigo, tradicional do sul da Alemanha. É refrescante, frutada e encorpada, aroma suave de banana e cravo provenientes da fermentação.`,
         "Cervejas",
         9.24,
-        "../src/images/products/beers/hebling-beer-weiss-300ml.png",
+        "./src/images/products/beers/hebling-beer-weiss-300ml.png",
         "beers",
         91
         ),
@@ -208,7 +208,7 @@ export const products = [
         `A Hebling Irish Red Ale é uma cerveja de cor cobre, baixo amargor e notas de toffee, caramelo e malte tostado, porém, leve e fácil de beber.`,
         "Cervejas",
         9.24,
-        "../src/images/products/beers/hebling-beer-irish-red-ale-300ml.png",
+        "./src/images/products/beers/hebling-beer-irish-red-ale-300ml.png",
         "beers",
         42
         ),
@@ -217,7 +217,7 @@ export const products = [
         `Cerveja tradicional norte-americana. A Hebling Pumpkin Ale utiliza abóboras frescas, açúcar e cravo em flor, proporcionado aromas e sabores marcantes à cerveja.`,
         "Cervejas",
         10.39,
-        "../src/images/products/beers/hebling-beer-pumpkin-ale-300ml.png",
+        "./src/images/products/beers/hebling-beer-pumpkin-ale-300ml.png",
         "beers",
         28
         ),
@@ -226,7 +226,7 @@ export const products = [
         `A invenção da limonada cor-de-rosa é atribuída ao trabalhador de circo Henry E. "Sanchez" Allott, que acidentalmente, derrubou balas de canela na limonada que vendia. À votre Santé!`,
         "Drinks",
         9.24,
-        "../src/images/products/drinks/hebling-drink-pink-lemonade-300ml.png",
+        "./src/images/products/drinks/hebling-drink-pink-lemonade-300ml.png",
         "drinks",
         2
         ),
@@ -235,7 +235,7 @@ export const products = [
         `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares. Versão em lata 350ml.`,
         "Cervejas",
         8.25,
-        "../src/images/products/beers/cacildes-beer-puro-malte-350ml.png",
+        "./src/images/products/beers/cacildes-beer-puro-malte-350ml.png",
         "beers",
         13
         ),
@@ -244,7 +244,7 @@ export const products = [
         `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares. Versão em long neck 330ml.`,
         "Cervejas",
         7.40,
-        "../src/images/products/beers/cacildes-beer-puro-malte-330ml.png",
+        "./src/images/products/beers/cacildes-beer-puro-malte-330ml.png",
         "beers",
         0
         ),
@@ -253,7 +253,7 @@ export const products = [
         `Um produto desenvolvido pelos mestres cervejeiros da Brassaria Ampolis. Com sabor diferenciado e produzida artesanalmente, mas com aquele toque popular, agradando todos os tipos de paladares. Versão em long neck 600ml`,
         "Cervejas",
         13.45,
-        "../src/images/products/beers/cacildes-beer-puro-malte-600ml.png",
+        "./src/images/products/beers/cacildes-beer-puro-malte-600ml.png",
         "beers",
         40
         ),
@@ -262,7 +262,7 @@ export const products = [
         `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial.`,
         "Cervejas Premium",
         40.50,
-        "../src/images/products/beers/trappist-beer-westmalle-tripel-330ml.png",
+        "./src/images/products/beers/trappist-beer-westmalle-tripel-330ml.png",
         "premium",
         23
         ),
@@ -271,7 +271,7 @@ export const products = [
         `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial.`,
         "Cervejas Premium",
         52.39,
-        "../src/images/products/beers/trappist-beer-latrappe-tripel-330ml.png",
+        "./src/images/products/beers/trappist-beer-latrappe-tripel-330ml.png",
         "premium",
         0
         ),
@@ -280,7 +280,7 @@ export const products = [
         `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial.`,
         "Cervejas Premium",
         48.25,
-        "../src/images/products/beers/trappist-beer-latrappe-dubbell-330ml.png",
+        "./src/images/products/beers/trappist-beer-latrappe-dubbell-330ml.png",
         "premium",
         13
         ),
@@ -289,7 +289,7 @@ export const products = [
         `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial.`,
         "Cervejas Premium",
         58.23,
-        "../src/images/products/beers/trappist-beer-chimay-blue-330ml.png",
+        "./src/images/products/beers/trappist-beer-chimay-blue-330ml.png",
         "premium",
         2
         ),
@@ -298,7 +298,7 @@ export const products = [
         `Saboreie uma das mais antigas e tradicionais cervejas do mundo. As cervejas trapistas remontam a tradição milenar dos monges católicos trapistas de produzir sua cerveja única e especial.`,
         "Cervejas Premium",
         51.37,
-        "../src/images/products/beers/trappist-beer-latrappe-blond-330ml.png",
+        "./src/images/products/beers/trappist-beer-latrappe-blond-330ml.png",
         "premium",
         8
         ),
@@ -307,7 +307,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida. Versão tradicional.`,
         "Fermentados",
         78.23,
-        "../src/images/products/fermenteds/hidromel-philip-mead-traditional-500ml.png",
+        "./src/images/products/fermenteds/hidromel-philip-mead-traditional-500ml.png",
         "fermenteds",
         19
         ),
@@ -316,7 +316,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida. Versão maturada em carvalho.`,
         "Fermentados",
         80.31,
-        "../src/images/products/fermenteds/hidromel-philip-mead-oak-aged-500ml.png",
+        "./src/images/products/fermenteds/hidromel-philip-mead-oak-aged-500ml.png",
         "fermenteds",
         10
         ),        
@@ -325,7 +325,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida. Versão com notas de café.`,
         "Fermentados",
         81.40,
-        "../src/images/products/fermenteds/hidromel-philip-mead-coffee-oak-aged-750ml.png",
+        "./src/images/products/fermenteds/hidromel-philip-mead-coffee-oak-aged-750ml.png",
         "fermenteds",
         4
         ),
@@ -334,7 +334,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida. Versão com frutas vermelhas.`,
         "Fermentados",
         83.98,
-        "../src/images/products/fermenteds/hidromel-philip-mead-red-fruits-500ml.png",
+        "./src/images/products/fermenteds/hidromel-philip-mead-red-fruits-500ml.png",
         "fermenteds",
         3
         ),
@@ -343,7 +343,7 @@ export const products = [
         `Economize na sua tradicional bebida. Leve três garrafas de hidromel à sua escolha, pagando menos no valor final.`,
         "Kits",
         195.30,
-        "../src/images/products/kits/kit-hidromel-philipp-mead.png",
+        "./src/images/products/kits/kit-hidromel-philipp-mead.png",
         "kits",
         0
         ),
@@ -352,7 +352,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
         "Fermentados",
         68.24,
-        "../src/images/products/fermenteds/hidromel-sigrid-750ml.png",
+        "./src/images/products/fermenteds/hidromel-sigrid-750ml.png",
         "fermenteds",
         21
         ),
@@ -361,7 +361,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
         "Fermentados",
         59.32,
-        "../src/images/products/fermenteds/hidromel-oldpony-aegir-doce-750ml.png",
+        "./src/images/products/fermenteds/hidromel-oldpony-aegir-doce-750ml.png",
         "fermenteds",
         4
         ),
@@ -370,7 +370,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
         "Fermentados",
         80.22,
-        "../src/images/products/fermenteds/hidromel-ascalon-norseman-suave-750ml.png",
+        "./src/images/products/fermenteds/hidromel-ascalon-norseman-suave-750ml.png",
         "fermenteds",
         0
         ),
@@ -379,7 +379,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
         "Fermentados",
         84.49,
-        "../src/images/products/fermenteds/hidromel-valhala-tradicional-suave-750ml.png",
+        "./src/images/products/fermenteds/hidromel-valhala-tradicional-suave-750ml.png",
         "fermenteds",
         12
         ),
@@ -388,7 +388,7 @@ export const products = [
         `Prove a doce e melíflua bebida dos seus filmes medievais favoritos! O Hidromel é um delicioso fermentado elaborado com o mel das melhores flores, com notas de frutas e uma fermentação esplêndida.`,
         "Fermentados",
         86.01,
-        "../src/images/products/fermenteds/hidromel-valhala-red-fruits-750ml.png",
+        "./src/images/products/fermenteds/hidromel-valhala-red-fruits-750ml.png",
         "fermenteds",
         3
         ),

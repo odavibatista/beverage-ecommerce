@@ -1,14 +1,13 @@
 {
   "name": "beverage-ecommerce",
-  "private": true,
-  "version": "0.0.0",
+  "version": "2.9.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "create": "npx tsc-watch && npm run dev"
+    "create": "npm run dev"
   },
   "dependencies": {
     "react": "^18.2.0",

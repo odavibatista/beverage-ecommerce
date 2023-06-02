@@ -3,7 +3,7 @@
 export function FirstContainer  ()  {
     return(
         <div id="first-container">
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide w-100" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="../src/images/site/carousel/slide-1.png" className="d-block w-100" alt="..."/>
