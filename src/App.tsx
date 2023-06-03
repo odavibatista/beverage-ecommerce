@@ -9,7 +9,6 @@ export function App() {
     <>
       <Navbar/>
       <FirstContainer/>
-      <ProductsContainer/>
     </>
       
   )
