@@ -1,4 +1,4 @@
-import { products } from "./ShopProducts.js";
+import { products } from "./ShopProducts.ts";
 
 export const inStock = products.filter(equalOrOverThanOne => equalOrOverThanOne.inStock >= 1)
 

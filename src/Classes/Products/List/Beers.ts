@@ -1,4 +1,4 @@
-import { products } from "./ShopProducts.js";
+import { products } from "./ShopProducts.ts";
 
 export const beers = products.filter(beer => beer.cathegory === "beers")
 

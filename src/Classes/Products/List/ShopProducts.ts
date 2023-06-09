@@ -1,4 +1,4 @@
-import { Product } from "../../Product.js";
+import { Product } from "../../Product.ts";
 
 
 export const products = [
@@ -10,7 +10,8 @@ export const products = [
         6.90,
         "./src/images/products/energy-drinks/monster-juice-mango-loco.png",
         "energy-drinks",
-        31
+        31,
+        true
         ),
     new Product(
         "Monster Energy Ultra Violet",
@@ -19,7 +20,8 @@ export const products = [
         7.20,
         "./src/images/products/energy-drinks/monster-ultra-violet.png",
         "energy-drinks",
-        51
+        51,
+        true
         ),
     new Product(
         "Monster Energy Zero Ultra ",
@@ -28,7 +30,7 @@ export const products = [
         7.35,
         "./src/images/products/energy-drinks/monster-zero-ultra.png",
         "energy-drinks",
-        81
+        81,
         ),
     new Product(
         "Monster Ultra Paradise",
@@ -120,7 +122,8 @@ export const products = [
         11.45,
         "./src/images/products/energy-drinks/red-bull-energy-drink-acai.png",
         "energy-drinks",
-        14
+        14,
+        true
         ),
     new Product(
         "Red Bull Pitaya Edition",
@@ -147,7 +150,8 @@ export const products = [
         12.15,
         "./src/images/products/energy-drinks/red-bull-energy-drink-tropical.png",
         "energy-drinks",
-        4
+        4,
+        true
         ),
     new Product(
         "Red Bull Coco Edition",
@@ -174,7 +178,8 @@ export const products = [
         9.24,
         "./src/images/products/beers/hebling-beer-vienna-lager-300ml.png",
         "beers",
-        40
+        40,
+        true
         ),
     new Product(
         "Cerveja Pilsen Hebling 300ml",
@@ -183,7 +188,8 @@ export const products = [
         8.14,
         "./src/images/products/beers/hebling-beer-pilsen-300ml.png",
         "beers",
-        66
+        66,
+        true
         ),
     new Product(
         "Cerveja Weiss Hebling 300ml",
@@ -201,7 +207,8 @@ export const products = [
         9.24,
         "../src/images/products/beers/hebling-beer-brown-porter-300ml.png",
         "beers",
-        0
+        0,
+        true
         ),
     new Product(
         "Cerveja Irish Red Ale Hebling 300ml",
@@ -210,7 +217,8 @@ export const products = [
         9.24,
         "./src/images/products/beers/hebling-beer-irish-red-ale-300ml.png",
         "beers",
-        42
+        42,
+        true
         ),
     new Product(
         "Cerveja Pumpkin Ale Hebling 300ml",
@@ -219,7 +227,8 @@ export const products = [
         10.39,
         "./src/images/products/beers/hebling-beer-pumpkin-ale-300ml.png",
         "beers",
-        28
+        28,
+        true
         ),
     new Product(
         "Pink Lemonade Hebling 300ml",
@@ -263,8 +272,9 @@ export const products = [
         "Cervejas Premium",
         40.50,
         "./src/images/products/beers/trappist-beer-westmalle-tripel-330ml.png",
-        "premium",
-        23
+        "beers",
+        23,
+        true
         ),
     new Product(
         "Cerveja Trapista La Trappe Tripel 330ml",
@@ -272,7 +282,7 @@ export const products = [
         "Cervejas Premium",
         52.39,
         "./src/images/products/beers/trappist-beer-latrappe-tripel-330ml.png",
-        "premium",
+        "beers",
         0
         ),
     new Product(
@@ -281,7 +291,7 @@ export const products = [
         "Cervejas Premium",
         48.25,
         "./src/images/products/beers/trappist-beer-latrappe-dubbell-330ml.png",
-        "premium",
+        "beers",
         13
         ),
     new Product(
@@ -290,7 +300,7 @@ export const products = [
         "Cervejas Premium",
         58.23,
         "./src/images/products/beers/trappist-beer-chimay-blue-330ml.png",
-        "premium",
+        "beers",
         2
         ),
     new Product(
@@ -299,8 +309,9 @@ export const products = [
         "Cervejas Premium",
         51.37,
         "./src/images/products/beers/trappist-beer-latrappe-blond-330ml.png",
-        "premium",
-        8
+        "beers",
+        8,
+        true
         ),
     new Product(
         "Hidromel Philip Mead Traditional 500ml",
@@ -318,7 +329,8 @@ export const products = [
         80.31,
         "./src/images/products/fermenteds/hidromel-philip-mead-oak-aged-500ml.png",
         "fermenteds",
-        10
+        10,
+        true
         ),        
     new Product(
         "Hidromel Philip Mead Coffee Oak Aged 750ml",
@@ -327,7 +339,8 @@ export const products = [
         81.40,
         "./src/images/products/fermenteds/hidromel-philip-mead-coffee-oak-aged-750ml.png",
         "fermenteds",
-        4
+        4,
+        true
         ),
     new Product(
         "Hidromel Philip Mead Red Fruits 500ml",
@@ -345,7 +358,7 @@ export const products = [
         195.30,
         "./src/images/products/kits/kit-hidromel-philipp-mead.png",
         "kits",
-        0
+        1
         ),
     new Product(
         "Hidromel Heddveld Sigrid 750ml",
@@ -393,22 +406,23 @@ export const products = [
         3
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Água Mineral Voss Sem Gás 850ml",
+        `Prove a água com maior índice de pureza do mundo, vinda de geleiras recentemente derretidas, com baixo valor mineral.`,
+        "Águas",
+        42.14,
+        "../src/images/products/waters/water-voss-mineral-850ml.png",
+        "waters",
+        32
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Água Mineral Voss Sparkling 850ml",
+        `rove a água com maior índice de pureza do mundo, vinda de geleiras recentemente derretidas, com baixo valor mineral, em sua versão gaseificada.`,
+        "Águas",
+        49.22,
+        "../src/images/products/waters/water-voss-mineral-sparkling-850ml.png",
+        "waters",
+        21,
+        true
         ),
     new Product(
         "",

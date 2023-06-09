@@ -1,0 +1,30 @@
+@import './colors.module.scss';
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main    {
+    background-color: $background;
+    min-height: 100vh;
+    color: white;
+
+    p   {
+        margin: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: $background;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $primary;
+}
