@@ -6,9 +6,10 @@ export class Product   {
     protected imgUrl
     public cathegory
     public inStock
-    protected onSale
+    public onSale?
 
-    constructor(name: string, description: string, kind: string, price: number, imgUrl: string, cathegory: string, inStock: number, onSale?: boolean) {
+    constructor(name: string, description: string, kind: string, price: number, imgUrl: string, cathegory: string, inStock: number, onSale = false) {
+
         this.name = name
         this.description = description
         this.kind = kind
@@ -17,5 +18,7 @@ export class Product   {
         this.cathegory = cathegory
         this.inStock = inStock
         this.onSale = onSale
+
+
     }
 }

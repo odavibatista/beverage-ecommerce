@@ -22,6 +22,9 @@ Você pode verificar o wireframe do projeto <a href="https://www.figma.com/file/
 - POO;
 - Babel.
 
+# Créditos de recursos
+- Icons8 (Links utilizados na barra de categorias): https://icons8.com/ ;
+
 <br>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
