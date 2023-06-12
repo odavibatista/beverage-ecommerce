@@ -943,166 +943,170 @@ export const products: Product[] = [
         7
         ),
     new Product(
+        "Kit de Cerâmicas para Saquẽ",
+        `Leve garrafa e copos artesanais para aproveitar e beber melhor o seu saquê.`,
+        "Utensílios",
+        59.99,
+        "../src/images/products/tools/sake-kit-bottle-and-cups-ceramic.png",
+        "tools",
+        3,
+        true
+        ),
+    new Product(
+        "Kit de Cerâmicas Vintage para Saquê",
+        `Leve estes estilosos e tradicionais itens para poder aproveitar com melhor estilo e delicadeza a desgustação da sua bebida japonesa.`,
+        "Utensílios",
+        89.99,
+        "../src/images/products/tools/sake-kit-vintage-bottle-and-cups.png",
+        "tools",
+        2
+        ),
+    new Product(
+        "Copo de Saquê Feudal",
+        `Um copo de madeira tradicional, remontando a estética do período feudal do Japão.`,
+        "Copos",
+        12.99,
+        "../src/images/products/tools/sake-round-cup-wood-feudal.png",
+        "tools",
+        8
+        ),
+    new Product(
+        "Copo de Saquê Massu",
+        `Um copo bela e ricamente ornamentado para a degustação das suas bebidas. Leve esta obra-prima do artesanato para a sua mesa.`,
+        "Copos",
+        18.21,
+        "../src/images/products/tools/sake-square-cup-wood-massu.png",
+        "tools",
+        10,
+        true
+        ),
+    new Product(
+        "Copo de Saquê Wood&Glass",
+        `Um copo misto para o seu saquê, servindo tanto como porta-copo e copo para a desgustação desta clássica bebida.`,
+        "Copos",
+        14.31,
+        "../src/images/products/tools/sake-square-cup-wood+glass.png",
+        "tools",
+        7
+        ),
+    new Product(
+        "Abridor de Garrafas Ace of Spades",
+        `Leve um estiloso abridor de garrafas, no formato às de espadas.`,
+        "Abridores",
+        4.29,
+        "../src/images/products/tools/tool-bottle-opener-card-format.png",
+        "tools",
+        33
+        ),
+    new Product(
+        "Abridor de Garrafas em Aço Inox",
+        `O bom e velho abridor para garrafas, ideal para o dia a dia, sem complicações.`,
+        "Abridores",
+        3.25,
+        "../src/images/products/tools/tool-bottle-opener-steel.png",
+        "tools",
+        28
+        ),
+    new Product(
+        "Saca-Rolhas Dupla Wood Grip",
+        `Uma saca-rolhas de dupla utilidade, servindo tanto para a abertura do seu vinho quanto para outras utilidades domésticas.`,
+        "Saca-Rolhas",
+        39.45,
+        "../src/images/products/tools/tool-cork-double-wood-grip.png",
+        "tools",
+        3
+        ),
+    new Product(
+        "Saca-Rolhas Plastic Grip",
+        `Uma saca-rolhas prática e simples, pronta para lhe servir com a abertura de suas garrafas.`,
+        "Saca-Rolhas",
+        5.29,
+        "../src/images/products/tools/tool-cork-remover-basic-plastic-grip.png",
+        "tools",
+        22
+        ),
+    new Product(
+        "Saca-Rolhas em Aço Inox",
+        `Uma saca-rolhas em aço inoxidável, resistente e prática para lhe servir.`,
+        "Saca-Rolhas",
+        6.11,
+        "../src/images/products/tools/tool-cork-remover-basic.png",
+        "tools",
+        10
+        ),
+    new Product(
+        "Saca-Rolhas Vinum HomeStyle",
+        `Uma saca-rolhas profissional, capaz de abrir seus vinhos e cervejas com êxito e cuidado.`,
+        "Saca-Rolhas",
+        31.24,
+        "../src/images/products/tools/tool-cork-remover-home-style-vinum.png",
+        "tools",
+        13
+        ),
+    new Product(
+        "Saca-Rolhas Chifre",
+        `Uma saca-rolhas em formato de chifre de boi, ideal para decorar a sua cozinha com um visual campestre.`,
+        "Saca-Rolhas",
+        18.33,
+        "../src/images/products/tools/tool-cork-remover-horn-grip.png",
         "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
+        3
+        ),
+    new Product(
+        "Kit para Garrafas",
+        `Um kit profissional para abrir, dispor e servir os mais diversos tipos de bebidas de diferentes tipos de garrafas.`,
+        "Kits",
+        90.31,
+        "../src/images/products/tools/tool-cork-remover-kit.png",
+        "tools",
+        5,
+        true
+        ),
+    new Product(
+        "Saca-Rolhas Profissional Bronze",
+        `Uma saca-rolhas profissional, capaz de abrir seus vinhos e cervejas com êxito e cuidado. Versão Bronze.`,
+        "Saca-Rolhas",
+        33.21,
+        "../src/images/products/tools/tool-cork-remover-professional.png",
+        "tools",
+        9
+        ),
+    new Product(
+        "Saca-Rolhas Em Vinho",
+        `Uma saca-rolhas retrátil, em formato de garrafa de vinho, fácil de ser guardada e usada.`,
+        "Saca-Rolhas",
+        24.45,
+        "../src/images/products/tools/tool-cork-remover-wine-format.png",
+        "tools",
         0
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Abridor de Garrafas Bottlecap",
+        `Esse estiloso abridor de garrafas pode ser fixado em sua mesa ou em sua parede, para melhor lhe servir.`,
+        "Abridores",
+        25.33,
+        "../src/images/products/tools/tool-wall-bottle-opener-bottle-cap.png",
+        "tools",
+        13,
+        true
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Abridor de Garrafas Bull",
+        `Esse abridor de garrafas em formato de touro não apenas irá lhe ajudar a abrir suas bebidas, mas também lhe dará uma ótima decoração para o seu ambiente.`,
+        "Abridores",
+        31.91,
+        "../src/images/products/tools/tool-wall-bottle-opener-bull.png",
+        "tools",
+        2
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Abridor de Garrafas Kombi Copper",
+        `Esse abridor de garrafas em formato de Kombi irá lhe trazer aos tempos retrô, dando-lhe a capacidade de ter o melhor`,
+        "Abridores",
+        29.89,
+        "../src/images/products/tools/tool-wall-bottle-opener-kombi-copper.png",
+        "tools",
+        3
         ),
     new Product(
         "",
