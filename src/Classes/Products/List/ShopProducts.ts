@@ -1,7 +1,7 @@
 import { Product } from "../../Product.ts";
 
 
-export const products = [
+export const products: Product[] = [
 //Energéticos
     new Product(
         "Monster Mango Loco",
@@ -467,7 +467,7 @@ export const products = [
         `Cachaça de altíssima qualidade, armazenada numa garrafa de cerâmica. Produzida com cana de safra de qualidade altíssima, esta cachaça garante a você uma experiência degustativa única.`,
         "Cachaças - Premium",
         159.99,
-        "../src/images/products/.png",
+        "../src/images/products/destilateds/destilated-cachaca-lenda-mineira-500ml.png",
         "destilateds",
         2,
         true
@@ -560,7 +560,7 @@ export const products = [
         `Rum licorizado de alta qualidade, ideal para ocasiões e momentos especiais.`,
         "Rum's - Premium",
         603.20,
-        "../src/images/products/destilateds/destilated-rum-a+h-riise-non-plus-ultra-black-700ml.png",
+        "../src/images/products/destilateds/destilated-rum-a-h-riise-non-plus-ultra-black-700ml.png",
         "destilateds",
         1
         ),
@@ -612,6 +612,226 @@ export const products = [
         2
         ),
     new Product(
+        "Gelo de Cõco 200ml",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor natural.`,
+        "Gelos",
+        2.20,
+        "../src/images/products/ices/coconut-ice-200ml.png",
+        "ices",
+        35
+        ),
+    new Product(
+        "Gelo de Cõco + Maçã Verde 200ml",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor maçã verde.`,
+        "Gelos",
+        2.40,
+        "../src/images/products/ices/coconut-ice-green-apple-200ml.png",
+        "ices",
+        24
+        ),
+    new Product(
+        "Gelo de Cõco + Limão",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor limão.`,
+        "Gelos",
+        2.30,
+        "../src/images/products/ices/coconut-ice-lime-200ml.png",
+        "ices",
+        26,
+        true
+        ),
+    new Product(
+        "Gelo de Cõco + Maracujá",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor maracujá.`,
+        "Gelos",
+        2.25,
+        "../src/images/products/ices/coconut-ice-passionfruit-200ml.png",
+        "ices",
+        12,
+        true
+        ),
+    new Product(
+        "Gelo de Cõco + Limão Siciliano",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor limão siciliano.`,
+        "Gelos",
+        2.35,
+        "../src/images/products/ices/coconut-ice-silician-lemon-200ml.png",
+        "ices",
+        10
+        ),
+    new Product(
+        "Gelo de Cõco + Morango",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor morango.`,
+        "Gelos",
+        2.39,
+        "../src/images/products/ices/coconut-ice-strawberry-200ml.png",
+        "ices",
+        4
+        ),
+    new Product(
+        "Gelo de Cõco + Melancia",
+        `Incremente seus drinks e combinações com este gelo de água de côco, pronto para adocicar e suavizar a sua bebida. Sabor melancia.`,
+        "Gelos",
+        2.15,
+        "../src/images/products/ices/coconut-ice-watermelon-200ml.png",
+        "ices",
+        0
+        ),
+    new Product(
+        "Pacote de Gelo Hideal 5kg",
+        `Leve uma boa quantidade de gelo por um preço econômico, capaz de atender fielmente às suas necessidades de uma boa bebida gelada.`,
+        "Gelos",
+        22.19,
+        "../src/images/products/ices/ice-bag-hideal-5kg.png",
+        "ices",
+        12
+        ),
+    new Product(
+        "Pacote de Gelos Reutilizáveis",
+        `Leve 78 cubos de gelo reutilizáveis, que irão lhe trazer melhor economia no gasto de água e gelo a longo prazo.`,
+        "Gelos",
+        33.12,
+        "../src/images/products/ices/ice-bag-reusable-78-units.png",
+        "ices",
+        8
+        ),
+    new Product(
+        "Kit Sparkling Water San Pellegrino - L'aranciata",
+        `Uma clássica bebida italiana à base de suco de laranja gaseificado, capaz de lhe surpreender com toda a tradição desta tão amada bebida! Versão com 4 unidades.`,
+        "Águas - Premium",
+        46.12,
+        "../src/images/products/waters/pack-4units-water-san-pellegrino-sparkling-laranciata.png",
+        "waters",
+        13,
+        true
+        ),
+    new Product(
+        "Sparkling Water San Pellegrino 505ml",
+        `Uma clássica água com gás vinda direta da Itália, com baixíssimo teor mineral e cuidadoso processo de fabricação.`,
+        "Águas - Premium",
+        15.13,
+        "../src/images/products/waters/water-san-pellegrino-sparkling-505ml.png",
+        "waters",
+        10,
+        true
+        ),
+    new Product(
+        "Sparkling Water San Pellegrino Dark Cherry 270ml",
+        `Uma bebida clássica feita à base de água com gás, com sabor de cereja escura.`,
+        "Águas - Premium",
+        10.32,
+        "../src/images/products/waters/water-san-pellegrino-sparkling-dark-cherry.png",
+        "waters",
+        20
+        ),
+    new Product(
+        "Sparkling Water San Pellegrino Lemonade 330ml",
+        `Uma limonada levíssima, feita com a levíssima água com gás San Pellegrino, trazendo refrescância e sabor em cada gole.`,
+        "Águas - Premium",
+        12.31,
+        "../src/images/products/waters/water-san-pellegrino-sparkling-lemonade.png",
+        "waters",
+        10
+        ),
+    new Product(
+        "Sparkling Water San Pellegrino L'Aranciata 330ml",
+        `A clássica bebida de laranja, desta vez em lata, para melhor praticidade no seu dia a dia.`,
+        "Águas - Premium",
+        9.15,
+        "../src/images/products/waters/water-san-pellegrino-sparkling-orange-330ml.png",
+        "waters",
+        10
+        ),
+    new Product(
+        "Sparkling Water San Pellegrino Pomegranate 270ml",
+        `A clássica bebida italiana gaseificada, agora também com suco de romã.`,
+        "Águas - Premium",
+        9.45,
+        "../src/images/products/waters/water-san-pellegrino-sparkling-pomegranate.png",
+        "waters",
+        12
+        ),
+    new Product(
+        "Água Tônica Antárctica Hibiscus 269ml",
+        `A água tônica mais amada do Brasil, agora num sabor surpreendente de hibiscso, pronto para incrementar as suas bebidas e seus gins.`,
+        "Águas",
+        2.99,
+        "../src/images/products/waters/water-tonic-antarctia-hibiscus-269ml.png",
+        "waters",
+        12
+        ),
+    new Product(
+        "Água Tônica Antárctica Três Limões 269ml",
+        `A água tônica mais amada do Brasil, perfeita para ser misturada em seus drinks favoritos. Versão três limões.`,
+        "Águas",
+        2.89,
+        "../src/images/products/waters/water-tonic-antarctia-three-limes-269ml.png",
+        "waters",
+        14
+        ),
+    new Product(
+        "Água Tônica Antárctica 350ml",
+        `A água tônica mais amada do Brasil, em sua versão clássica.`,
+        "Águas",
+        3.09,
+        "../src/images/products/waters/water-tonic-antarctica-350ml.png",
+        "waters",
+        30
+        ),
+    new Product(
+        "Água Tônica Antárctica Gengibre 269ml",
+        `A água tônica mais amada do Brasil, perfeita para ser misturada em seus drinks favoritos. Versão gengibre.`,
+        "Águas",
+        2.59,
+        "../src/images/products/waters/water-tonic-antarctica-ginger-269ml.png",
+        "waters",
+        9
+        ),
+    new Product(
+        "Água Tônica Dillar's Classic Diet 350ml",
+        `Uma água tônica importada, com baixos valores calóricos, pronta para ser bebida ou usada em drinks.`,
+        "Águas",
+        3.59,
+        "../src/images/products/waters/water-tonic-classic-diet-350ml.png",
+        "waters",
+        10
+        ),
+    new Product(
+        "Água Tônica Schweppes Zero Açúcar 220ml",
+        `Leve uma fina água tônica, agora em sua versão pequena.`,
+        "Águas",
+        2.30,
+        "../src/images/products/waters/water-tonic-schweppes-zero-sugar-220ml.png",
+        "waters",
+        9
+        ),
+    new Product(
+        "Água Tônica St. Pierre 270ml",
+        `Uma delicada e saborosa água tônica francesa, trazida de Paris para o seu copo.`,
+        "Águas",
+        4.29,
+        "../src/images/products/waters/water-tonic-st-pierre-270ml.png",
+        "waters",
+        15
+        ),
+    new Product(
+        "Água Mineral Voss 850ml",
+        `A água refinada mais famosa de todo o mundo. Prove a água mais pura de todo o mundo, trazida da Suécia e vinda do derretimento de calotas polares. Versão mineral.`,
+        "Águas",
+        41.43,
+        "../src/images/products/waters/water-voss-mineral-850ml.png",
+        "waters",
+        9
+        ),
+    new Product(
+        "Água Mineral Com Gás Voss 850ml",
+        `A água refinada mais famosa de todo o mundo. Prove a água mais pura de todo o mundo, trazida da Suécia e vinda do derretimento de calotas polares. Versão gaseificada.`,
+        "Águas",
+        39.44,
+        "../src/images/products/waters/water-voss-mineral-sparkling-850ml.png",
+        "waters",
+        19
+        ),
+    new Product(
         "",
         ``,
         "",
@@ -629,5 +849,474 @@ export const products = [
         "",
         0
         ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+    new Product(
+        "",
+        ``,
+        "",
+        0,
+        "../src/images/products/.png",
+        "",
+        0
+        ),
+
 ]
 

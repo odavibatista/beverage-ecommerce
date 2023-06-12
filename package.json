@@ -1,6 +1,6 @@
 {
-  "name": "beverage-ecommerce",
-  "version": "3.0.1",
+  "name": "beverage-ecommerce-front-end",
+  "version": "3.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
