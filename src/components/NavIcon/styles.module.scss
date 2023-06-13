@@ -1,0 +1,27 @@
+.iconCategories {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.4s;
+    width: 72px;
+
+    &:hover {
+        filter: invert(100%);
+        -webkit-filter: invert(65%);
+    }
+}
+
+.categoryImages {
+    width: 45px;
+}
+
+.categoryNames  {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 3px;
+    text-decoration: none;
+}
