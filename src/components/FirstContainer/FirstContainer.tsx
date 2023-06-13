@@ -2,8 +2,7 @@ import styles from "./styles.module.scss"
 
 export function FirstContainer  ()  {
     return(
-        <>
-            <div id="first-container">
+            <div className={styles.firstContainer}>
                 <div id="carouselExampleControls" className="carousel slide w-100" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -25,10 +24,9 @@ export function FirstContainer  ()  {
                         <span className="visually-hidden"></span>
                     </button>
                 </div>
+                <div className={styles.splitter}>
+                </div>
             </div>
-            <div className={styles.splitter}>
-            </div>
-        </>
         
 
     )

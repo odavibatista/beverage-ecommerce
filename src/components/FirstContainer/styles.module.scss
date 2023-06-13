@@ -6,3 +6,9 @@
     height: 9px;
     width: 100%;
 }
+
+@media  (max-width: 530px)  {
+    .firstContainer   {
+        display: none;
+    }
+}

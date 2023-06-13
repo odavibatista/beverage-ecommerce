@@ -1,0 +1,87 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.featuredProductCard    {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 252px;
+}
+
+.productKind    {
+    align-items: center;
+    background-color: $secondary;
+    border-radius: 10px;
+    color: $brown;
+    display: flex;
+    font-family: $o;
+    font-size: 16px;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    text-align: center;
+    width: 80%;
+}
+
+.kind   {
+    margin-top: 15px;
+}
+
+.productImage   {
+    width: 180px;
+}
+
+.productName    {
+    font-family: $o;
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+}
+
+.splitter   {
+    background-color: $primary;
+    height: 4px;
+    margin-top: -10px;
+    width: 90%;
+}
+
+.latePrice  {
+    font-family: $o;
+    font-size: 14px;
+    margin-top: 14px;
+
+}
+
+.printedPrice   {
+    font-family: $o;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.newPrice   {
+    font-family: $o;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.button {
+    background-color: $primary;
+    border-radius: 5px;
+    border: none;
+    color: $brown;
+    font-family: $o;
+    height: 32px;
+    width: 132px;
+
+    transition: 0.4s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+        width: 222px;
+    }
+}
