@@ -8,10 +8,13 @@
 
 .topSection {
   align-items: center;
+  background-color: $primary;
   display: flex;
   flex-direction: row;
-  background-color: $primary;
+  gap: 75px;
   height: 94px;
+  justify-content: center;
+  padding: 0 152px;
   width: 100%;
 }
 
@@ -20,8 +23,8 @@
   background-color: $secondary;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
-  height: 90px;
   justify-content: center;
   padding-top: 25px;
   width: 100%;
@@ -42,6 +45,7 @@
   color: black;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   gap: 18px;
   text-decoration: none;
 }
@@ -49,6 +53,7 @@
 .searchBar  {
   background-color: white;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.367) 3px 3px 3px 1px;
   display: flex;
   flex-direction: row;
   height: 39px;
@@ -83,5 +88,87 @@
   width: 25px;
 }
 
+.navOptions {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  width: 123px;
 
+  transition: 0.4s;
+  &:hover {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+}
 
+.navOptionsIcon {
+  height: 39px;
+  width: 39px;
+}
+
+.navOptionsText {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 106px;
+}
+
+.ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  margin-left: 82px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+#collapse {
+  transition: 0s;
+}
+
+.options  {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    color: white;
+  }
+}
+
+@media(max-width: 991px)  {
+  .headerLogo {
+    width: 52px;
+  }
+
+  .headerTitle  {
+    font-size: 36px
+  }
+
+  .ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
+  .searchBar  {
+    display: none;
+  }
+
+  .navOptionsIcon {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 1100px)  {
+  .ul{
+    margin-left: 0px;
+  }
+}

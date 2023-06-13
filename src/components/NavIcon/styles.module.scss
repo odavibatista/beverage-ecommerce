@@ -25,3 +25,14 @@
     margin-top: 3px;
     text-decoration: none;
 }
+
+@media (max-width: 991px)   {
+    .iconCategories {
+        height: 55px;
+        width: 62px;
+    }
+
+    .categoryImages {
+        width: 25px;
+    }
+}
