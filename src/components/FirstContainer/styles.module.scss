@@ -1,0 +1,8 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.splitter   {
+    background-color: $secondary;
+    height: 9px;
+    width: 100%;
+}

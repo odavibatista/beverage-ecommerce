@@ -7,8 +7,8 @@ export function Navbar ()  {
 
     return(
         <>
-          <nav className={" navbar navbar-expand-lg sticky-top"} style={{backgroundColor: "#FFD600", display: "flex", justifyContent: "center"}}>
-            <div className="container-fluid d-flex flex-row align-items-center justify-content-center" style={{padding: "0 152px", }}>
+          <nav className={" navbar navbar-expand-lg sticky-top flex-column"} style={{backgroundColor: "#FFD600"}}>
+            <div className="container-fluid align-items-center justify-content-center" style={{padding: "0 152px", }}>
               <a href="#"  className={styles.horizontal + " navbar-brand"}>
                     <img src="../../src/images/logo-old-david.png" alt="shopLogo" className={styles.headerLogo} />
                     <h1 className={styles.headerTitle}>Old David's</h1>
@@ -48,8 +48,7 @@ export function Navbar ()  {
                 </ul>
               </div>
             </div>
-          </nav>
-          <section className={styles.bottomSection + " collapse"} id="collapse">
+            <section className={styles.bottomSection + " collapse"} id="collapse">
             <NavIcon url="https://img.icons8.com/?size=512&id=118288&format=png" content="Ofertas"/>
             <NavIcon url="https://img.icons8.com/?size=512&id=TXax4v1cj9sq&format=png" content="Vinhos"/>
             <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Vodkas"/>
@@ -63,6 +62,8 @@ export function Navbar ()  {
             <NavIcon url="https://img.icons8.com/?size=512&id=79440&format=png" content="Gelos"/>
             <NavIcon url="https://img.icons8.com/?size=512&id=68669&format=png" content="Utensílios"/>
           </section> 
+          </nav>
+          
       </>
     )
 
