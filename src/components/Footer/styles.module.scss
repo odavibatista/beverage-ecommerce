@@ -1,0 +1,75 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.footer {
+    min-height: 240px;
+    width: 100%;
+}
+
+.section    {
+    align-items: center;
+    background-color: $secondary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 200px;
+    padding: 36px 49px;
+}
+
+.infoSection    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infoTitle  {
+    color: black;
+    font-family: $o;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.listing    {
+    color: black;
+    font-family: $o;
+    height: 25px;
+    text-decoration: none;
+}
+
+.seal   {
+    background-color: $primary;
+    min-height: 26px;
+    width: 100%;
+}
+
+.sealText   {
+    font-family: $o;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alcoholRestriction {
+    width: 172px;
+}
+
+.icon   {
+    width: 25px;
+}
+
+@media  (max-width: 900px)  {
+    .section    {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media  (max-width: 685px)  {
+    .sealText   {
+        font-size: 12px;
+    }
+}

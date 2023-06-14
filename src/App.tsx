@@ -5,6 +5,7 @@ import { FeaturedContainer } from "./components/FeaturedContainer/FeaturedContai
 import { NewsletterFeature } from "./components/NewsletterFeature/NewsletterFeature"
 import { NewsletterSection } from "./components/NewsletterSection/NewsletterSection"
 import { AboutUs } from "./components/AboutUs/AboutUs"
+import { Footer } from "./components/Footer/Footer"
 
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
       <FeaturedContainer/>
       <NewsletterSection/>
       <AboutUs/>
+      <Footer/>
     </>
       
   )
