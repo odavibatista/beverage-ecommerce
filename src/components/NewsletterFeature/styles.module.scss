@@ -1,0 +1,27 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.newsletterFeature  {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletterHighlight    {
+    height: 35px;
+    width: 35px;
+}
+
+.text   {
+    font-family: $o;
+    font-size: 24px;
+}
+
+@media  (max-width: 685px)  {
+    .newsletterHighlight    {
+        height: 25px;
+        width: 25px;
+    }
+    .text   {
+        font-size: 14px;
+    }
+}

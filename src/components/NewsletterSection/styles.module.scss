@@ -1,0 +1,134 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    background-color: #FFFBE8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    padding: 12px 152px;
+    text-align: center;
+
+}
+
+.pageTitle  {
+    color: $brown;
+    font-family: $o;
+    font-size: 48px;
+}
+
+.pageSubTitle   {
+    color: $brown;
+    font-family: $o;
+    font-size: 24px;
+    margin-bottom: -26px;
+    margin-top: -62px;
+}
+
+.separator  {
+    background-color: $brown;
+    height: 310px;
+    margin-left: -38px;
+    width: 2px;
+}
+
+.newsletterInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.newsletterForm {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.formInputs {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid $brown;
+    height: 52px;
+    width: 309px;
+}
+
+.labels {
+    color: $brown;
+    font-family: $o;
+    font-size: 24px;
+    text-align: left;
+}
+
+.formButton {
+    background-color: $brown;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: $o;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 34px;
+    width: 132px;
+}
+
+@media  (max-width: 1075px) {
+
+    .separator  {
+        display: none;
+        margin-left: 0px;
+    }
+}
+
+@media  (max-width: 1030px) {
+    .section    {
+        padding-top: 60px;
+    }
+
+    .pageTitle  {
+        font-size: 36px;
+    }
+
+    .pageSubTitle   {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .newsletterInfo {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formButton {
+        align-self: center;
+        width: 100%;
+    }
+
+    .newsletterForm {
+        margin-top: 20px;
+    }
+
+    .formInputs {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 635px)  {
+    .section    {
+        padding: 22px 86px;
+    }
+}
+@media  (max-width: 635px)  {
+    .section    {
+        padding: 22px 42px;
+    }
+}

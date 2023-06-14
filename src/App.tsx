@@ -2,6 +2,8 @@ import {  Navbar  } from "./components/Navbar/Navbar"
 import { FirstContainer } from "./components/FirstContainer/FirstContainer"
 import { ProductsContainer } from "./components/ProductsContainer/ProductsContainer"
 import { FeaturedContainer } from "./components/FeaturedContainer/FeaturedContainer"
+import { NewsletterFeature } from "./components/NewsletterFeature/NewsletterFeature"
+import { NewsletterSection } from "./components/NewsletterSection/NewsletterSection"
 
 
 export function App() {
@@ -11,6 +13,7 @@ export function App() {
       <Navbar/>
       <FirstContainer/>
       <FeaturedContainer/>
+      <NewsletterSection/>
     </>
       
   )
