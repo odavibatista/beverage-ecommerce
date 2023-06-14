@@ -68,16 +68,32 @@
 }
 
 .formButton {
+    align-items: center;
     background-color: $brown;
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+    display: flex;
     font-family: $o;
     font-size: 18px;
     font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
     text-transform: uppercase;
     height: 34px;
     width: 132px;
+
+    transition: 0.5s;
+    &:hover {
+        background-color: $primary;
+        color: $brown;
+        width: 100%;
+    }
+
+    p   {
+        margin-top: 15px;
+    }
 }
 
 @media  (max-width: 1075px) {

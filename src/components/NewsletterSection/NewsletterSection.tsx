@@ -23,7 +23,7 @@ export function NewsletterSection   ()  {
                         <label htmlFor="email" className={styles.labels}>EMAIL</label>
                         <input type="text" id="email" className={styles.formInputs} />
                         <br />
-                        <button className={styles.formButton}>Assinar</button>
+                        <a href="" className={styles.formButton}><p>Assinar</p></a>
                     </form>
                 </div>
             </div>
