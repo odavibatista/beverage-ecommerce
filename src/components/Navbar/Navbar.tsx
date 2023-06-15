@@ -51,7 +51,7 @@ export function Navbar ()  {
             <section className={styles.bottomSection + " collapse"} id="collapse">
             <NavIcon url="https://img.icons8.com/?size=512&id=118288&format=png" content="Ofertas" link="/src/pages/onsale.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=TXax4v1cj9sq&format=png" content="Vinhos" link="/src/pages/wines.html" />
-            <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Vodkas" link="/src/pages/vodkas.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=116701&format=png" content="Vodkas" link="/src/pages/vodkas.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=_Rxn-mdDAZCm&format=png" content="Espumantes" link="/src/pages/sparklings.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=100503&format=png" content="Cervejas" link="/src/pages/beers.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Destilados" link="/src/pages/destilateds.html" />

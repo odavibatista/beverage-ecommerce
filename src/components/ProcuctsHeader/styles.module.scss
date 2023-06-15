@@ -1,0 +1,30 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+    min-height: 70vh;
+}
+
+.text   {
+    color: white;
+    font-family: $msc;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description    {
+    color: white;
+    font-family: $msc;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
