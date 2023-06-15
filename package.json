@@ -1,13 +1,13 @@
 {
   "name": "beverage-ecommerce-front-end",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "create": "npm run dev"
+    "create": "npm run dev && vite"
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",

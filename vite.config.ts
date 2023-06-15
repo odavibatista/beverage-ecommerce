@@ -1,7 +1,27 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build:  {
+    rollupOptions:  {
+      input:  {
+        main: resolve(__dirname, 'index.html'),
+        beers: resolve(__dirname, 'src/pages/beers.html'),
+        destilateds: resolve(__dirname, 'src/pages/destilateds.html'),
+        energydrinks: resolve(__dirname, 'src/pages/energy-drinks.html'),
+        fermenteds: resolve(__dirname, 'src/pages/fermenteds.html'),
+        ices: resolve(__dirname, 'src/pages/ices.html'),
+        juices: resolve(__dirname, 'src/pages/juices.html'),
+        onsale: resolve(__dirname, 'src/pages/onsale.html'),
+        sparklings: resolve(__dirname, 'src/pages/sparklings.html'),
+        tools: resolve(__dirname, 'src/pages/tools.html'),
+        vodkas: resolve(__dirname, 'src/pages/vodkas.html'),
+        waters: resolve(__dirname, 'src/pages/waters.html'),
+        wines: resolve(__dirname, 'src/pages/wines.html'),
+      }
+    }
+  }
 })

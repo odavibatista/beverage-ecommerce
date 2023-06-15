@@ -1,0 +1,75 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+
+.productCard    {
+    background-color: $wh;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 252px;
+
+    span    {
+        background-color: $secondary;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        width: 180px;
+        z-index: 2;
+    }
+}
+
+.image  {
+    align-self: center;
+    width: 150px;
+}
+
+.productName    {
+    border-bottom: 5px solid $primary;
+    font-family: $o;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.description    {
+    font-family: $o;
+    height: 240px;
+    padding: 5px;
+}
+
+.price  {
+    font-family: $o;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.button {
+    align-self: center;
+    background-color: $secondary;
+    border: none;
+    border-radius: 5px;
+    color: $brown;
+    display: flex;
+    font-family: $o;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    justify-content: center;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+
+    transition: 0.5s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+        width: 99%;
+    }
+}

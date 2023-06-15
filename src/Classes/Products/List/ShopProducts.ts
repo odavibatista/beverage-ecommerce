@@ -874,7 +874,7 @@ export const products: Product[] = [
         `Um suco de fruta natural, com sabor riquíssimo. Versão uva e maçã.`,
         "Sucos",
         18.31,
-        "../src/images/products/juices/juice-natural-one-blend-apple-grape-1500ml.png",
+        "../../src/images/products/juices/juice-natural-one-blend-apple-grape-1500ml.png",
         "juices",
         10
         ),

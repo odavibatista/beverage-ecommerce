@@ -1,0 +1,10 @@
+.section    {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    min-height: 200vh;
+    padding: 50px;
+}

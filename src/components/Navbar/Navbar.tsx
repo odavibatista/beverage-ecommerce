@@ -9,7 +9,7 @@ export function Navbar ()  {
         <>
           <nav className={" navbar navbar-expand-lg sticky-top flex-column"} style={{backgroundColor: "#FFD600"}}>
             <div className="container-fluid align-items-center justify-content-center" style={{padding: "0 152px", }}>
-              <a href="#"  className={styles.horizontal + " navbar-brand"}>
+              <a href="/"  className={styles.horizontal + " navbar-brand"}>
                     <img src="../../src/images/logo-old-david.png" alt="shopLogo" className={styles.headerLogo} />
                     <h1 className={styles.headerTitle}>Old David's</h1>
               </a>
