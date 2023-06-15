@@ -49,18 +49,18 @@ export function Navbar ()  {
               </div>
             </div>
             <section className={styles.bottomSection + " collapse"} id="collapse">
-            <NavIcon url="https://img.icons8.com/?size=512&id=118288&format=png" content="Ofertas"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=TXax4v1cj9sq&format=png" content="Vinhos"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Vodkas"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=_Rxn-mdDAZCm&format=png" content="Espumantes"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=100503&format=png" content="Cervejas"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Destilados"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=121591&format=png" content="Fermentados"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=fMtMQwCqSTY6&format=png" content="Energéticos"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=102644&format=png" content="Águas"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=95050&format=png" content="Sucos"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=79440&format=png" content="Gelos"/>
-            <NavIcon url="https://img.icons8.com/?size=512&id=68669&format=png" content="Utensílios"/>
+            <NavIcon url="https://img.icons8.com/?size=512&id=118288&format=png" content="Ofertas" link="/src/pages/onsale.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=TXax4v1cj9sq&format=png" content="Vinhos" link="/src/pages/wines.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Vodkas" link="/src/pages/vodkas.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=_Rxn-mdDAZCm&format=png" content="Espumantes" link="/src/pages/sparklings.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=100503&format=png" content="Cervejas" link="/src/pages/beers.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=102450&format=png" content="Destilados" link="/src/pages/destilateds.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=121591&format=png" content="Fermentados" link="/src/pages/fermenteds.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=fMtMQwCqSTY6&format=png" content="Energéticos" link="/src/pages/energy-drinks.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=102644&format=png" content="Águas" link="/src/pages/waters.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=95050&format=png" content="Sucos" link="/src/pages/juices.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=79440&format=png" content="Gelos" link="/src/pages/ices.html" />
+            <NavIcon url="https://img.icons8.com/?size=512&id=68669&format=png" content="Utensílios" link="/src/pages/tools.html" />
           </section> 
           </nav>
           
