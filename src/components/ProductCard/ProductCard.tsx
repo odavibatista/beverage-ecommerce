@@ -1,18 +1,21 @@
+import shopCart from "../../Shopcart";
 import styles from "./styles.module.scss";
 
+let localStorageData = localStorage.getItem('shopCart');
 
+if(localStorageData) {
+//Se localStorageData for diferente de nulo, faça algo
+}
 
 
 
 export function ProductCard ({product}: any)  {
-    const shopCart: any[] = []
-
-    localStorage.setItem('shopCart', JSON.stringify(shopCart))
     //@ts-ignore
-    function insertToCart    (product: {})   {
+    function insertToCart(product: {}) {
+        const localStorageData = localStorage.getItem("localStorageData")
+        const shopCart = JSON.parse(localStorageData) || [];
         shopCart.push(product)
-        localStorage.setItem("shopCart", JSON.stringify(shopCart));
-        console.log(shopCart)
+        localStorage.setItem("localStorageData", JSON.stringify(shopCart))
     }
 
 function notAnyOnStock  ()  {
