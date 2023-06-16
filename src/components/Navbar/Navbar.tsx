@@ -7,7 +7,7 @@ export function Navbar ()  {
 
     return(
         <>
-          <nav className={" navbar navbar-expand-lg sticky-top flex-column"} style={{backgroundColor: "#FFD600"}}>
+          <nav className={" navbar navbar-expand-lg sticky-top flex-column"} style={{backgroundColor: "#F1C376"}}>
             <div className="container-fluid align-items-center justify-content-center" style={{padding: "0 152px", }}>
               <a href="/"  className={styles.horizontal + " navbar-brand"}>
                     <img src="../../src/images/logo-old-david.png" alt="shopLogo" className={styles.headerLogo} />
@@ -31,13 +31,13 @@ export function Navbar ()  {
                   <li className="nav-item">
                     <a href="" className={styles.navOptions}>
                       <img src="https://i.imgur.com/Zfkdt2d.png" alt="userIcon" className={styles.navOptionsIcon} />
-                      <p className={styles.navOptionsText}>Registrar-se</p>
+                      <p className={styles.navOptionsText}>LOGIN/REGISTRO</p>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="" className={styles.navOptions}>
                       <img src="https://i.imgur.com/L7Xn5WE.png" alt="cartIcon" className={styles.navOptionsIcon} />
-                      <p className={styles.navOptionsText}>Carrinho</p>
+                      <p className={styles.navOptionsText}>CARRINHO</p>
                     </a>
                   </li>
                   <li className="nav-item">

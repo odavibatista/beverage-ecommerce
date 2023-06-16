@@ -6,13 +6,13 @@ export function FirstContainer  ()  {
                 <div id="carouselExampleControls" className="carousel slide w-100" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="../src/images/site/carousel/slide-1.jpg" className="d-block w-100" alt="cocktailImage"/>
+                            <img src="https://i.imgur.com/tUdgigF.jpg" className="d-block w-100" alt="cocktailImage"/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../src/images/site/carousel/slide-2.jpg" className="d-block w-100" alt="menuImage"/>
+                            <img src="https://i.imgur.com/peReVsV.jpg" className="d-block w-100" alt="menuImage"/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../src/images/site/carousel/slide-3.jpg" className="d-block w-100" alt="newsletterAd"/>
+                            <img src="https://i.imgur.com/eWw1avC.jpg" className="d-block w-100" alt="newsletterAd"/>
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
