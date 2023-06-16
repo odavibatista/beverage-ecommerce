@@ -4,24 +4,28 @@
 
 .productCard    {
     background-color: $wh;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 480px;
     width: 252px;
 
     span    {
         background-color: $secondary;
-        font-size: 18px;
+        border-radius: 10px;
+        font-size: 14px;
         font-weight: bold;
         padding: 5px;
+        position: absolute;
         text-align: center;
-        width: 180px;
+        width: 160px;
         z-index: 2;
     }
 }
 
 .image  {
     align-self: center;
+    margin-top: 15px;
     width: 150px;
 }
 
@@ -30,13 +34,14 @@
     font-family: $o;
     font-size: 18px;
     font-weight: bold;
-    height: 100px;
+    height: 80px;
     padding: 2px;
     text-transform: uppercase;
 }
 
 .description    {
     font-family: $o;
+    font-size: 14px;
     height: 240px;
     padding: 5px;
 }
@@ -61,6 +66,7 @@
     font-weight: bold;
     line-height: 1;
     justify-content: center;
+    margin-bottom: 10px;
     padding: 10px 5px;
     text-align: center;
     text-decoration: none;
@@ -70,6 +76,6 @@
     &:hover {
         background-color: $brown;
         color: $primary;
-        width: 99%;
+        width: 90%;
     }
 }

@@ -1,5 +1,9 @@
+@import '../../../../styles/colors.module.scss';
+@import '../../../../styles/fonts.module.scss';
+
 .section    {
     align-items: center;
+    background-color: $background;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
