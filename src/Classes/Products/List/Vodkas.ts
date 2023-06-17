@@ -4,4 +4,4 @@ export const vodkas = products.filter(vodka => vodka.cathegory === "vodkas")
 
 console.log(vodkas)
 
-/*IMAGES SOURCE: https://imgur.com/a/cQZOf87 */
+/*IMAGES SOURCE: https://imgur.com/a/mDEyDxh */

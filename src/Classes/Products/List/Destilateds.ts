@@ -4,4 +4,4 @@ export const destilateds = products.filter(destilateds => destilateds.cathegory 
 
 console.log(destilateds)
 
-/*IMAGE SOURCES: https://imgur.com/a/wjf9Q0 */
+/*IMAGE SOURCES: https://imgur.com/a/wfpMiDj */

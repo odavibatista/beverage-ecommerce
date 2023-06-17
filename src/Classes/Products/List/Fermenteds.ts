@@ -4,4 +4,4 @@ export const fermenteds = products.filter(fermenteds => fermenteds.cathegory ===
 
 console.log(fermenteds)
 
-/*IMAGE SOURCES: https://imgur.com/a/KNCMeKp */
+/*IMAGE SOURCES: https://imgur.com/a/WWMOilJ */

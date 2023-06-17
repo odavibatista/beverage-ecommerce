@@ -4,4 +4,4 @@ export const ices = products.filter(ice => ice.cathegory === "ices")
 
 console.log(ices)
 
-/*IMAGES SOURCE: https://imgur.com/a/4KHZvZE */
+/*IMAGES SOURCE: https://imgur.com/a/5YN1FPJ */

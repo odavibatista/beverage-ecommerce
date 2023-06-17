@@ -4,4 +4,4 @@ export const energyDrinks = products.filter(energy => energy.cathegory === "ener
 
 console.log(energyDrinks)
 
-/*IMAGE SOURCES: https://imgur.com/a/VQy3gzH */
+/*IMAGE SOURCES: https://imgur.com/a/1BxsNSn */

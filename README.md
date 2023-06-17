@@ -1,6 +1,6 @@
-# Old David's Beverage Shop - 2.0
+# Old David's Beverage Shop - 3.3.4
 
-Bem-vindos à nova versão da Loja de Bebidas Old David!
+Welcome to the new version of Old David's Beverage Shop!
 
 
 <br>
@@ -9,24 +9,37 @@ Bem-vindos à nova versão da Loja de Bebidas Old David!
 </div>
 <br>
 
-Nesta nova versão, trago uma nova identidade visual para a loja virtual e para seus códigos.
-Aqui, usando os recursos do React, remonto a antiga loja com novas imagens, novas features e novos produtos, para trazer uma loja confortável e que agrade a todos os bons amantes de boas bebidas!
+On this new version, I recreate this project's visual appearence and functionalities.
+This project is a favorite of mine, since its first version was one of the first works on front-end development I've done when I started studying.
+For that, I recreated it entirely, preserving the original idea, but giving the site a new mockup and new ways of working by itself.
+With that, Old David's Shop is entirely remodeled with many new features and technologies.
 
-Você pode verificar o wireframe do projeto <a href="https://www.figma.com/file/FLaRgeOP2ZW6nzsXYzdVmS/Old-David's-Shop?type=design&node-id=101%3A2&t=QriODn1943bLBbum-1">aqui!</a>
+You can also check the project's wireframe <a href="https://www.figma.com/file/FLaRgeOP2ZW6nzsXYzdVmS/Old-David's-Shop?type=design&node-id=101%3A2&t=QriODn1943bLBbum-1">here!</a>
 
-# Tecnologias e Paradigmas Utilizados
-- Vite;
+# Used Libraries, Procedures and Tech
+- BlueWillow;
+- Bootstrap;
+- Docker;
+- ESLint;
+- Figma;
+- GNU Image Manipulation Program (GIMP);
+- Git;
+- Imgur;
+- O.O.P.;
 - React;
 - SCSS;
+- SplideJS / ReactSplide;
 - TypeScript;
-- POO;
-- Babel.
+- NodeTs;
+- Vite;
 
-# Créditos de recursos
-- Icons8 (Links utilizados na barra de categorias): https://icons8.com/ ;
+# Credits to other parties
+- Icons8 (Icons used on the site's navbar and newsletter): https://icons8.com/ ;
+- UnSplash (Some of the images used on the site's banners and carousel);
+- Products have its correponding sources.
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/91736880/228610548-96679501-92a2-4b6b-8bf5-91d27ffc7628.png"  align="center">
+  <img src="https://i.imgur.com/MgskORT.png"  align="center">
 </div>
 <br>
