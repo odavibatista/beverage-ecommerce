@@ -52,3 +52,20 @@
         color: $primary;
     }
 }
+
+@media  (max-width: 768px)  {
+    .cartProduct    {
+        flex-direction: column;
+        gap: 80px;
+        padding: 15px;
+        width: 90%;
+    }
+
+    .productInfo    {
+        padding: 15px;
+    }
+
+    .productIcon    {
+        width: 140px;
+    }
+}

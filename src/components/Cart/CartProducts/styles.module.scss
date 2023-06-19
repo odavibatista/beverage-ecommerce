@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .emptyCartTitle {
@@ -43,6 +44,7 @@
 }
 
 .cartContainer  {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -103,5 +105,28 @@
         background-color: $brown;
         color: $primary;
         width: 97%;
+    }
+}
+
+@media  (max-width: 500px)  {
+    .section    {
+        padding: 24px;
+    }
+
+    .emptyCartTitle  {
+        font-size: 24px;
+    }
+    
+    .emptyCartText  {
+        width: 300px;
+    }
+
+    .cartTitle  {
+        font-size: 36px;
+        padding: 0px;
+    }
+
+    .saleTotal  {
+        width: 90%;
     }
 }

@@ -24,8 +24,6 @@ export function FirstContainer  ()  {
                         <span className="visually-hidden"></span>
                     </button>
                 </div>
-                <div className={styles.splitter}>
-                </div>
             </div>
         
 

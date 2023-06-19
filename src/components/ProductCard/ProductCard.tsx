@@ -15,11 +15,15 @@ export function ProductCard ({product}: any)  {
         const shopCart = JSON.parse(localStorageData) || []
         shopCart.push(product)
         localStorage.setItem("localStorageData", JSON.stringify(shopCart))
+        const popup: any = document.querySelector(".popup");
+        popup.classList.add("open");
+        
     }
 
-function notAnyOnStock  ()  {
-    alert("Produto em falta! :(")
-}
+    function notAnyOnStock  ()  {
+        alert("Produto em falta! :(")
+    }
+    
 
     return  (
         <div className={styles.productCard}>
@@ -28,9 +32,16 @@ function notAnyOnStock  ()  {
             <h2 className={styles.productName}>{product.name}</h2>
             <h4 className={styles.price}>{product.inStock >= 1 ? "R$ " + product.price : "SEM ESTOQUE"}</h4>
             <p className={styles.description}>{product.description}</p>
-            <button className={styles.button} onClick={product.inStock >= 1 ? () => insertToCart(product) : () =>  notAnyOnStock()}>
+            <button
+            id="liveToastBtn"
+            type="button"
+            className={styles.button}
+            data-bs-dismiss="toast"
+            aria-label="Close"
+            onClick={product.inStock >= 1 ? () => insertToCart(product) : () =>  notAnyOnStock()}>
                     {product.inStock >= 1 ? "Adicionar ao Carrinho" : "Avise-me"}
             </button>
+
         </div>
     )
 }
