@@ -1,0 +1,53 @@
+@import '../../../../styles/colors.module.scss';
+@import '../../../../styles/fonts.module.scss';
+
+.cartProduct    {
+    align-items: center;
+    border: 8px solid $secondary;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 20px;
+    width: 700px;
+}
+
+.productIcon    {
+    width: 100px;
+}
+
+.productInfo    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productName    {
+    font-family: $msc;
+    font-size: 18px;
+    font-weight: bold;
+    width: 270px;
+}
+
+.productPrice   {
+    font-family: $o;
+    font-size: 18px;
+}
+
+.button {
+    background-color: $primary;
+    border: none;
+    border-radius: 5px;
+    color: $brown;
+    font-family: $msc;
+    font-size: 18px;
+    height: 40px;
+    margin-top: -50px;
+    padding: 5px 32px;
+    
+    transition: 0.4s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+    }
+}

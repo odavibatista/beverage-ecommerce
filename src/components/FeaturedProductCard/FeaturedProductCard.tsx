@@ -1,9 +1,24 @@
 import styles from "./styles.module.scss";
 
+
+let localStorageData = localStorage.getItem('shopCart');
+
+if(localStorageData) {
+//Se localStorageData for diferente de nulo, faça algo
+}
+
+
 export function FeaturedProductCard ({product}: any)  {
 
     const latePrice = product.price + (product.price * 0.18)
     const printedPrice = latePrice.toFixed(2)
+
+    function insertToCart(product: {}) {
+        const localStorageData: any = localStorage.getItem("localStorageData")
+        const shopCart = JSON.parse(localStorageData) || []
+        shopCart.push(product)
+        localStorage.setItem("localStorageData", JSON.stringify(shopCart))
+    }
     
     return(
         <>
@@ -16,7 +31,7 @@ export function FeaturedProductCard ({product}: any)  {
                 <div className={styles.splitter}></div>
                 <p className={styles.latePrice}>De: <span className={styles.printedPrice}>R$ {printedPrice}</span></p>
                 <p className={styles.newPrice}>{`Por: R$ ${product.price}`}</p>
-                <button className={styles.button}>Comprar</button>
+                <button className={styles.button} onClick={() => insertToCart(product)}>Comprar</button>
             </div>
         </>
     )

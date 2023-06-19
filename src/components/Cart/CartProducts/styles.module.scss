@@ -1,0 +1,103 @@
+@import '../../../../styles/colors.module.scss';
+@import '../../../../styles/fonts.module.scss';
+
+.section    {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px;
+}
+
+.emptyCart  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.emptyCartTitle {
+    font-family: $o;
+    font-size: 36px;
+}
+
+.emptyCartImage {
+    width: 200px;
+}
+
+.emptyCartText  {
+    font-size: 24px;
+    width: 400px;
+}
+
+.salesLink  {
+    color: rgb(139, 133, 0);
+    text-decoration: none;
+
+    transition: 0.2s;
+    &:hover {
+        color: $primary;
+    }
+}
+
+.cartContainer  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cartTitle  {
+    font-family: $o;
+    font-size: 48px;
+    text-align: center;
+}
+
+.saleTotal  {
+    align-items: center;
+    align-self: center;
+    background-color: $secondary;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    width: 98%;
+}
+
+.totalText  {
+    font-family: $msc;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+}
+
+.totalAmount    {
+    font-family: $o;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.finishSale {
+    align-self: center;
+    background-color: $primary;
+    border: none;
+    border-radius: 10px;
+    color: $brown;
+    font-family: $msc;
+    font-size: 24px;
+    padding: 5px 0px;
+    width: 65%;
+
+    transition: 0.4s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+        width: 97%;
+    }
+}

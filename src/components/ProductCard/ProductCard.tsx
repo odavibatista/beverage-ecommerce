@@ -1,4 +1,3 @@
-import shopCart from "../../Shopcart";
 import styles from "./styles.module.scss";
 
 let localStorageData = localStorage.getItem('shopCart');
@@ -12,8 +11,8 @@ if(localStorageData) {
 export function ProductCard ({product}: any)  {
     //@ts-ignore
     function insertToCart(product: {}) {
-        const localStorageData = localStorage.getItem("localStorageData")
-        const shopCart = JSON.parse(localStorageData) || [];
+        const localStorageData: any = localStorage.getItem("localStorageData")
+        const shopCart = JSON.parse(localStorageData) || []
         shopCart.push(product)
         localStorage.setItem("localStorageData", JSON.stringify(shopCart))
     }
