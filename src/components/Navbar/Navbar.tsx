@@ -29,13 +29,13 @@ export function Navbar ()  {
                     </form>
                   </li>
                   <li className="nav-item">
-                    <a href="" className={styles.navOptions}>
+                    <a href="/src/pages/signin.html" className={styles.navOptions}>
                       <img src="https://i.imgur.com/Zfkdt2d.png" alt="userIcon" className={styles.navOptionsIcon} />
                       <p className={styles.navOptionsText}>LOGIN/REGISTRO</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="" className={styles.navOptions}>
+                    <a href="/src/pages/cart.html" className={styles.navOptions}>
                       <img src="https://i.imgur.com/L7Xn5WE.png" alt="cartIcon" className={styles.navOptionsIcon} />
                       <p className={styles.navOptionsText}>CARRINHO</p>
                     </a>
@@ -61,7 +61,7 @@ export function Navbar ()  {
             <NavIcon url="https://img.icons8.com/?size=512&id=95050&format=png" content="Sucos" link="/src/pages/juices.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=79440&format=png" content="Gelos" link="/src/pages/ices.html" />
             <NavIcon url="https://img.icons8.com/?size=512&id=68669&format=png" content="Utensílios" link="/src/pages/tools.html" />
-          </section> 
+            </section> 
           </nav>
           
       </>

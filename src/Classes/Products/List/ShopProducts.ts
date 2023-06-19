@@ -1250,7 +1250,7 @@ export const products: Product[] = [
     new Product(
         "Moet & Chandon Imperial Brut 750ml",
         `Um champagne maturado em barril por vinte anos, especial para ser saboreado nas melhores ocasiões possíveis.`,
-        "Espumantes",
+        "Espumantes Premium",
         314.25,
         "https://i.imgur.com/kHBzIC3.jpeg",
         "sparklings",
@@ -1259,9 +1259,9 @@ export const products: Product[] = [
     new Product(
         "Perrier Jouet Grand Brut 750 Ml",
         `Espumante elaborado e engarrafado na origem pela Casa Chandon do Brasil. Flores brancas, frutas brancas, abacaxi e grapefruit. `,
-        "Espumantes",
+        "Espumantes Premium",
         594.99,
-        "https://i.imgur.com/YtoBwhL.png",
+        "https://i.imgur.com/ceyfNWV.jpg",
         "sparklings",
         3
         ),
@@ -1297,7 +1297,7 @@ export const products: Product[] = [
     new Product(
         "Graham's Tawny Porto 10 anos 750ml",
         `Vinho tipo porto com blend de safras de uvas portuguesas e francesas, envelhecido por 10 anos, tornando-se uma iguaria para o paladar.`,
-        "Vinhos",
+        "Vinhos Premium",
         534.99,
         "https://i.imgur.com/LKZ2fNe.jpg",
         "wines",
@@ -1306,111 +1306,67 @@ export const products: Product[] = [
     new Product(
         "San Marzano Collezione Cinquanta 750ml",
         `Com aromas intensos e complexos, este vinho traz notas frutadas de ameixa e geleia vermelha e aroma picante de baunilha e alcaçuz. Intenso na boca, encorpado e macio com um longo retrogosto.`,
-        "Vinhos",
+        "Vinhos Premium",
         322.95,
         "https://i.imgur.com/OM2FNMk.jpg",
         "wines",
         3
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Mateus Rosé 750ml",
+        `MATEUS ROSÉ é um vinho leve, fresco e jovem. A sua qualidade, extrema versatilidade e estilo consistente tornam-o o vinho ideal para acompanhar os bons momentos da vida.`,
+        "Vinhos",
+        62.95,
+        "https://i.imgur.com/LuCNBl3.jpg",
+        "wines",
+        8
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Sang Mêlé Rouge Tinto 750ml",
+        `Produzido com uma combinação de uvas típicas do sudoeste da França, ele apresenta sabor concentrado e volumoso, além de notas aromáticas de frutas vermelhas maduras. `,
+        "Vinhos",
+        135.99,
+        "https://i.imgur.com/QetdjIP.jpg",
+        "wines",
+        5,
+        true
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Marques C.C. Cabernet Suavignon 750ml",
+        `Um vinho tinto seco, de coloração vermelho intenso, apresenta aromas de Frutas vermelhas maduras, como ameixa, groselha, amora, notas de tosta, cedro e especiarias.`,
+        "Vinhos",
+        118.59,
+        "https://i.imgur.com/x2VZgVJ.jpg",
+        "wines",
+        10,
+        true
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Nótios Red Tinto 750ml",
+        `Este saboroso tinto é elaborado com a elogiada uva grega Agiorgitiko e mostra todas as melhores qualidades da casta, com um aroma amplo e generoso, marcado por frutas escuras e framboesa.`,
+        "Vinhos",
+        222.29,
+        "https://i.imgur.com/B37XjYx.jpg",
+        "wines",
+        13
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
+        "Primitivo Di Manduria La Pruina 750ml",
+        `Pureza e suavidade de amora balsâmica, com densidade e integridade aromática superfina.`,
+        "Vinhos",
+        149.95,
+        "https://i.imgur.com/MxjN0q7.jpg",
+        "wines",
+        21
         ),
     new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-    new Product(
-        "",
-        ``,
-        "",
-        0,
-        "../src/images/products/.png",
-        "",
-        0
-        ),
-
+        "Gran Anciano 2019 4 Years 750ml",
+        `Possuindo maturidade e harmonia, Gran Anciano possui um vasto leque aromático que traz notas de caramelo, baunilha, amora e pimenta.`,
+        "Vinhos",
+        89.29,
+        "https://i.imgur.com/UKwMdSD.jpg",
+        "wines",
+        11
+        )
 ]
 
