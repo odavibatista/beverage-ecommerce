@@ -7,7 +7,10 @@ export function CartProducts ()    {
     let localStorageData = JSON.parse(localStorage.getItem('localStorageData'))
 
     //@ts-ignore
-    const cartCards = localStorageData.map((products, index) => <CartProductCard key={index} product={products} />)
+    const cartCards =   localStorageData.map((products, index) => <CartProductCard key={index} product={products} />)
+    const totalPrice:   number[]    =   []
+    localStorageData.map(product => totalPrice.push(product.price))
+    const totalValue: string = totalPrice.reduce((acc, cv) =>   acc + cv, 0).toFixed(2)
     return  (
             <section className={styles.section}>
                 {
@@ -22,8 +25,8 @@ export function CartProducts ()    {
                         <p className={styles.cartTitle}>Meu Carrinho</p>
                         {cartCards}
                         <div className={styles.saleTotal}>
-                            <p className={styles.totalText}>Total:</p>
-                            <p className={styles.totalAmount}>R$ 123</p>
+                            <p className={styles.totalText}>Total</p>
+                            <p className={styles.totalAmount}>R$ {totalValue}</p>
                         </div>
                         <button className={styles.finishSale}>Finalizar compra</button>
                     </div>
