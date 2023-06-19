@@ -1,4 +1,5 @@
 @import './colors.module.scss';
+@import './fonts.module.scss';
 
 *   {
     margin: 0;
@@ -17,32 +18,36 @@ main    {
 }
 
 .popup {
-    position: fixed;
-    top: 0;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 250px;
+    justify-content: center;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 9999;
-    visibility: hidden;
     opacity: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
     transition: all 0.2s ease-in-out;
-    }
+    visibility: hidden;
+    width: 350px;
+    z-index: 9999;
+}
 
 .popup.open {
-    visibility: visible;
     opacity: 1;
+    visibility: visible;
 }
 
-.popup__content {
-    position: relative;
-    width: 300px;
-    max-width: 90%;
-    margin: 10% auto;
-    background: #fff;
-    padding: 25px;
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+.popupText  {
+    align-self: center;
+    color: white;
+    font-family: $o;
+    margin-top: 15px;
+    text-align: center;
+
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;

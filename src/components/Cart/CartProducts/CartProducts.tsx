@@ -12,7 +12,7 @@ export function CartProducts ()    {
     localStorageData.map(product => totalPrice.push(product.price))
     const totalValue: string = totalPrice.reduce((acc, cv) =>   acc + cv, 0).toFixed(2)
     return  (
-            <section className={styles.section}>
+            <section className={styles.section} id="cartContainer">
                 {
                     localStorageData.length < 1 ?
                     <div className={styles.emptyCart}>

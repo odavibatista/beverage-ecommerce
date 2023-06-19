@@ -18,11 +18,20 @@ export function FeaturedProductCard ({product}: any)  {
         const shopCart = JSON.parse(localStorageData) || []
         shopCart.push(product)
         localStorage.setItem("localStorageData", JSON.stringify(shopCart))
+        const popup: any = document.querySelector("#addedPopup")
+        popup.classList.add("open")
+
+        setTimeout(() => {
+            popup.classList.remove("open")
+        }, 2000)
     }
     
     return(
         <>
             <div className={styles.featuredProductCard}>
+                <div id="addedPopup" className="popup"  style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+                    <p className="popupText">Adicionado ao carrinho!</p>
+                </div>
                 <span className={styles.productKind}>
                     <p className={styles.kind}>{product.kind}</p>
                 </span>

@@ -13,7 +13,7 @@ function App() {
     if(loading) {
         setTimeout(() => {
             setLoading(false)
-        }, 500)
+        }, 100)
         return <PageSpinner/>
     }
 
