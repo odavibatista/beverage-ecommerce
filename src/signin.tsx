@@ -4,6 +4,7 @@ import '../styles/globals.scss'
 import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { PageSpinner } from './components/Spinner/Spinner'
+import { Register } from './components/Register/Register'
 
 function App() {
     const [loading, setLoading] = useState(true)
@@ -17,6 +18,7 @@ function App() {
     return  (
         <>
             <Navbar/>
+            <Register/>
             <Footer/>
         </>
     )

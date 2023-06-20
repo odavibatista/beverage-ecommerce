@@ -1,0 +1,170 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.h1 {
+    font-family: $msc;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section    {
+    background: url('https://i.imgur.com/O7X1ZhH.jpg');
+    background-repeat: none;
+    background-size: cover;
+    box-shadow: 0 8px 24px -16px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.register   {
+    background-color: $wh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px;
+    width: 350px;
+}
+
+.login  {
+    background-color: $wh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 350px;
+}
+
+.registerForm   {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.loginForm  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.formButton {
+    background-color: $primary;
+    border: none;
+    font-family: $o;
+    font-size: 18px;
+    height: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.label  {
+    font-family: $msc;
+    font-size: 18px;
+}
+
+.input  {
+    background-color: transparent;
+    border: 0;
+    border-bottom: $brown 2px solid;
+    font-size: 1rem;
+    padding: .5rem;
+
+
+    &:focus {
+        border-bottom: 2px solid transparent;
+        outline-color: $primary;
+    }
+}
+
+.span   {
+    color: #f64348;
+    font-size: .75rem;
+    margin: .25rem;
+}
+
+.button {
+    background-color: #43a5f6;
+    border: 0;
+    border-radius: .25rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding: .5rem 0;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0.9);
+    }
+}
+
+
+.img    {
+    width: 60px;
+
+    &:hover {
+        cursor: pointer;
+        transition: 0.4s;
+        filter: brightness(0.5);
+    }
+}  
+
+.error  {
+    border: 1px solid #f64348;
+
+}
+
+.success    {
+    border: 1px solid #43f67f;
+
+}
+
+.strengthMeter  {
+    position: relative;
+    margin-top: 40px;
+    height: 3px;
+    border-radius: 1rem;
+    background-color: transparent;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.strengthMeter::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: calc(1% * var(--strength, 0));
+    background-color: #43a5f6;
+    border-radius: 1rem;
+
+    transition: 0.3s;
+}
+
+#reasons    {
+    border: 1px solid red;
+    height: 20px;
+    background-color: transparent;
+}
+
+  #reasons > *{
+    margin-top: .5rem;
+}
+
+#info   {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-text    {
+    font-weight: 500;
+}
