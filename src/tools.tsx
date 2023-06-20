@@ -6,7 +6,6 @@ import { Footer } from './components/Footer/Footer'
 import { ProductsHeader } from './components/ProcuctsHeader/ProcuctsHeader'
 import { ToolsContainer } from './components/ProductsContainers/ToolsContainer/ToolsContainer'
 import { PageSpinner } from './components/Spinner/Spinner'
-import { SparklingsContainer } from './components/ProductsContainers/SparklingsContainer/SparklingsContainer'
 
 function App() {
     const [loading, setLoading] = useState(true)

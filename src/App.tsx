@@ -4,7 +4,7 @@ import { FeaturedContainer } from "./components/FeaturedContainer/FeaturedContai
 import { NewsletterSection } from "./components/NewsletterSection/NewsletterSection"
 import { AboutUs } from "./components/AboutUs/AboutUs"
 import { Footer } from "./components/Footer/Footer"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { PageSpinner } from "./components/Spinner/Spinner"
 
 

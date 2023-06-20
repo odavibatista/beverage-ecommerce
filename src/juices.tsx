@@ -4,8 +4,6 @@ import '../styles/globals.scss'
 import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { ProductsHeader } from './components/ProcuctsHeader/ProcuctsHeader'
-import { ProductCard } from './components/ProductCard/ProductCard'
-import { juices } from './Classes/Products/List/Juices'
 import { JuicesContainer } from './components/ProductsContainers/JuicesContainer/JuicesContainer'
 import { PageSpinner } from './components/Spinner/Spinner'
 

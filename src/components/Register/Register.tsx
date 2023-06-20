@@ -2,24 +2,6 @@ import styles from './styles.module.scss'
 
 export function Register()  {
 
-    const registerButton: any = document.getElementById('registerButton')
-
-    function storeRegisterInfo() {
-        const registerForm: any = document.getElementById('registerForm')
-        registerForm.preventDefault()
-        const name: any = registerForm.querySelector('#name')
-        const email: any = registerForm.querySelector('#email')
-        const password: any = registerForm.querySelector('#password')
-        //@ts-ignore
-        localStorage.setItem('registeredUser',  [name = name.value, email = email.value, password = password.value])
-        const registerPopup: any = document.querySelector("#registerPopup")
-        registerPopup.classList.add("open")
-
-        setTimeout(() => {
-            registerPopup.classList.remove("open")
-        }, 2500)
-
-    }
 
     return(
             <section className={styles.section}>

@@ -7,7 +7,7 @@ export function CartProducts ()    {
     let localStorageData = JSON.parse(localStorage.getItem('localStorageData'))
 
     //@ts-ignore
-    const cartCards =   localStorageData.map((products, index) => <CartProductCard key={index} product={products} />)
+    const cartCards =   localStorageData.map((products, index) => { <CartProductCard key={index} product={products} />  })
     const totalPrice:   number[]    =   []
     localStorageData.map(product => totalPrice.push(product.price))
     const totalValue: string = totalPrice.reduce((acc, cv) =>   acc + cv, 0).toFixed(2)

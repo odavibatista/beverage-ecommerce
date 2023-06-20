@@ -1,6 +1,4 @@
-import React, { Children } from "react";
 import styles from "./styles.module.scss";
-import { ProductCard } from "../../ProductCard/ProductCard";
 import { onSale } from "../../../Classes/Products/List/OnSale";
 import { FeaturedProductCard } from "../../FeaturedProductCard/FeaturedProductCard";
 

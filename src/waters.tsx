@@ -6,7 +6,6 @@ import { Footer } from './components/Footer/Footer'
 import { ProductsHeader } from './components/ProcuctsHeader/ProcuctsHeader'
 import { WatersContainer } from './components/ProductsContainers/WatersContainer/WatersContainer'
 import { PageSpinner } from './components/Spinner/Spinner'
-import { VodkasContainers } from './components/ProductsContainers/VodkasContainers/VodkasContainers'
 
 function App() {
     const [loading, setLoading] = useState(true)

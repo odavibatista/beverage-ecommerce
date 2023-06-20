@@ -1,4 +1,3 @@
-import React, { Children } from "react";
 import styles from "./styles.module.scss";
 import { ProductCard } from "../../ProductCard/ProductCard";
 import { ices } from "../../../Classes/Products/List/Ices";
