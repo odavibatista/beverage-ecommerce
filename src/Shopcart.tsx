@@ -1,7 +1,13 @@
 const shopCart: any[] = []
 
-localStorage.setItem('shopCart', JSON.stringify(shopCart))
+function setShopcart () {
+    localStorage.setItem('shopCart', JSON.stringify(shopCart))
+
+    if(localStorage.getItem('localStorageData') === null)   {
+        localStorage.setItem("localStorageData", JSON.stringify(shopCart))
+    }
+}
 
 
 
-export default shopCart
+export default setShopcart

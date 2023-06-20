@@ -6,6 +6,7 @@ import { AboutUs } from "./components/AboutUs/AboutUs"
 import { Footer } from "./components/Footer/Footer"
 import { useState } from "react"
 import { PageSpinner } from "./components/Spinner/Spinner"
+import setShopcart from "./Shopcart"
 
 
 export function App() {
@@ -17,7 +18,7 @@ export function App() {
     return <PageSpinner/>
   }
 
-
+setShopcart()
 
   return (
     <>

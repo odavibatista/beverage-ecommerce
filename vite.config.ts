@@ -9,7 +9,6 @@ export default defineConfig({
     rollupOptions:  {
       input:  {
         main: resolve(__dirname, 'index.html'),
-        cart: resolve(__dirname, 'src/pages/cart.html'),
         signin: resolve(__dirname, 'src/pages/signin.html'),
         beers: resolve(__dirname, 'src/pages/beers.html'),
         destilateds: resolve(__dirname, 'src/pages/destilateds.html'),
@@ -23,6 +22,7 @@ export default defineConfig({
         vodkas: resolve(__dirname, 'src/pages/vodkas.html'),
         waters: resolve(__dirname, 'src/pages/waters.html'),
         wines: resolve(__dirname, 'src/pages/wines.html'),
+        cart: resolve(__dirname, 'src/pages/cart.html'),
       }
     }
   }

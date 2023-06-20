@@ -5,15 +5,13 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { CartProducts } from './components/Cart/CartProducts/CartProducts'
 import { PageSpinner } from './components/Spinner/Spinner'
-//@ts-ignore
-let localStorageData = JSON.parse(localStorage.getItem('localStorageData'))
 
 function App() {
     const [loading, setLoading] = useState(true)
     if(loading) {
         setTimeout(() => {
             setLoading(false)
-        }, 100)
+        }, 300)
         return <PageSpinner/>
     }
 
