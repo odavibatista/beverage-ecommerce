@@ -14,36 +14,49 @@
     box-shadow: 0 8px 24px -16px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
-    gap: 350px;
     justify-content: center;
     margin: 0 auto;
     padding: 40px;
 }
 
+#registerPopup  {
+    background-color: green;
+    bottom: 0;
+    height:40px;
+    left:  0;
+    margin: 20px;
+    padding: 20px;
+    position: fixed;
+    width: 300px;
+}
+
 .register   {
-    background-color: $wh;
+    background-color: rgba(255, 255, 255, 0.834);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    height: 420px;
     padding: 30px;
-    width: 350px;
+    transition: all 0.2s ease-in-out;
+    width: 450px;
 }
 
 .login  {
-    background-color: $wh;
+    background-color: rgba(255, 255, 255, 0.834);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    height: 420px;
     padding: 30px;
-    width: 350px;
+    transition: all 0.2s ease-in-out;
+    width: 450px;
 }
 
 .registerForm   {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 0px;
 }
 
 .loginForm  {
@@ -72,8 +85,7 @@
     background-color: transparent;
     border: 0;
     border-bottom: $brown 2px solid;
-    font-size: 1rem;
-    padding: .5rem;
+    font-size: 18px;
 
 
     &:focus {
@@ -85,7 +97,6 @@
 .span   {
     color: #f64348;
     font-size: .75rem;
-    margin: .25rem;
 }
 
 .button {
@@ -93,7 +104,7 @@
     border: 0;
     border-radius: .25rem;
     font-size: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     padding: .5rem 0;
     text-transform: uppercase;
 
@@ -119,52 +130,45 @@
 
 }
 
-.success    {
-    border: 1px solid #43f67f;
-
-}
-
-.strengthMeter  {
-    position: relative;
-    margin-top: 40px;
-    height: 3px;
-    border-radius: 1rem;
-    background-color: transparent;
-    overflow: hidden;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.strengthMeter::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: calc(1% * var(--strength, 0));
-    background-color: #43a5f6;
-    border-radius: 1rem;
-
-    transition: 0.3s;
-}
-
-#reasons    {
-    border: 1px solid red;
-    height: 20px;
-    background-color: transparent;
-}
-
-  #reasons > *{
-    margin-top: .5rem;
-}
-
-#info   {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    justify-content: center;
-    align-items: center;
-}
-
 #my-text    {
     font-weight: 500;
+}
+
+.changeStatus   {
+    align-self: center;
+    cursor: pointer;
+    color: $brown;
+    font-size: 18px;
+    text-align: center;
+    
+    transition: 0.3s;
+    &:hover   {
+        color: $primary;
+    }
+}
+
+@media  (max-width: 425px)  {
+    .label  {
+        font-size: 14px;
+    }
+
+    .changeStatus   {
+        font-size: 14px;
+    }
+
+    .register   {
+        height: 380px;
+    }
+
+    .h1 {
+        font-size: 24px;
+    }
+
+    .input  {
+        height: 30px;
+    }
+
+    .login   {
+        height: 380px;
+    }
 }

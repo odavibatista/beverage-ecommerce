@@ -18,8 +18,11 @@ export function CartProductCard ({product}: any)    {
             setTimeout(() => {
                 popup.classList.remove("open")
             }, 2500)
-            //@ts-ignore  
-            window.location.reload(true)
+            setTimeout(() => {
+                //@ts-ignore
+                window.location.reload(true)
+            }, 300)
+
         }
 
         return  (            

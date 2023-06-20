@@ -14,8 +14,15 @@ export function Navbar ()  {
                     <img src="../../src/images/logo-old-david.png" alt="shopLogo" className={styles.headerLogo} />
                     <h1 className={styles.headerTitle}>Old David's</h1>
               </a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+              <button 
+                className="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className={styles.ul + " navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between align-content-center"}>
@@ -42,7 +49,15 @@ export function Navbar ()  {
                     </a>
                   </li>
                   <li className="nav-item">
-                  <a className={styles.options} data-bs-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse" style={{height: "37px", textDecoration: "none", fontSize: "36px"}} onClick={() => setChangeContent(changeContent === "+" ? "x" : "+")}>
+                  <a className={styles.options}
+                    id="optionLink"
+                    data-bs-toggle="collapse" 
+                    href="#collapse" 
+                    role="button" 
+                    aria-expanded="false"
+                    aria-controls="collapse"
+                    style={{  height: "37px", textDecoration: "none", fontSize: "36px"}}
+                    onClick={() => setChangeContent(changeContent === "+" ? "x" : "+")}>
                     {changeContent}
                   </a>
                   </li>
