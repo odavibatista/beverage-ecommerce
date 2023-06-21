@@ -23,6 +23,7 @@ export default defineConfig({
         waters: resolve(__dirname, 'src/pages/waters.html'),
         wines: resolve(__dirname, 'src/pages/wines.html'),
         cart: resolve(__dirname, 'src/pages/cart.html'),
+        myaccount: resolve(__dirname, 'src/pages/myaccount.html'),
       }
     }
   }

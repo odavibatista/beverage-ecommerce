@@ -4,7 +4,6 @@ import { useState } from "react";
 
 export function Navbar ()  {
   const [changeContent, setChangeContent] = useState("+")
-  const [isLoggedin, setLogin] = useState(false)
 
     return(
         <>
@@ -37,9 +36,26 @@ export function Navbar ()  {
                     </form>
                   </li>
                   <li className="nav-item">
-                    <a href="/src/pages/signin.html" className={styles.navOptions}>
+                    <a href={
+                      //@ts-ignore
+                      JSON.parse(localStorage.getItem('isLoggedIn')) === true ?
+                      "/src/pages/myaccount.html"
+                      :
+                      "/src/pages/signin.html"
+                      }
+                      className={styles.navOptions}
+                    >
                       <img src="https://i.imgur.com/Zfkdt2d.png" alt="userIcon" className={styles.navOptionsIcon} />
-                      <p className={styles.navOptionsText}>LOGIN/REGISTRO</p>
+                      <p className={styles.navOptionsText}>
+                        {
+                          //@ts-ignore
+                          JSON.parse(localStorage.getItem('isLoggedIn')) === true ?
+                          //@ts-ignore
+                          JSON.parse(localStorage.getItem('registeredUser')).name 
+                          :
+                          "LOGIN/REGISTRO"
+                        }
+                      </p>
                     </a>
                   </li>
                   <li className="nav-item">
