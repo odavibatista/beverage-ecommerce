@@ -44,7 +44,7 @@ export function FeaturedContainer ()    {
                                 <FeaturedProductCard product={onSale[3]}/>
                             </SplideSlide>
                             <SplideSlide className={styles.thriceSlide}>
-                                <FeaturedProductCard product={onSale[6]}/>
+                                <FeaturedProductCard product={onSale[9]}/>
                             </SplideSlide>
                             <SplideSlide style={{textAlign: "center"}}>
                                 <FeaturedProductCard product={onSale[8]}/>

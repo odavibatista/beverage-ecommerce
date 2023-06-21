@@ -12,25 +12,35 @@ export function FeaturedProductCard ({product}: any)  {
 
     const latePrice = product.price + (product.price * 0.18)
     const printedPrice = latePrice.toFixed(2)
+    const addedFeaturedProductPopup: any = document.querySelector("#addedFeaturedProductPopup")
 
     function insertToCart(product: {}) {
         const localStorageData: any = localStorage.getItem("localStorageData")
         const shopCart = JSON.parse(localStorageData) || []
         shopCart.push(product)
         localStorage.setItem("localStorageData", JSON.stringify(shopCart))
-        const popup: any = document.querySelector("#addedPopup")
-        popup.classList.add("open")
+
+        addedFeaturedProductPopup.classList.add("open")
+        setTimeout(() => {
+            addedFeaturedProductPopup.classList.remove("open")
+        }, 2000)
+    }
+
+    function notAnyOnStock  ()  {
+        const noStockPopup: any = document.querySelector("#notAnyOnStock")
+        noStockPopup.classList.add("open")
 
         setTimeout(() => {
-            popup.classList.remove("open")
+            noStockPopup.classList.remove("open")
         }, 2000)
     }
     
     return(
-        <>
             <div className={styles.featuredProductCard}>
-                <div id="addedPopup" className="popup"  style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
-                    <p className="popupText">Adicionado ao carrinho!</p>
+                <div id="addedFeaturedProductPopup"
+                    className="popup"
+                    style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+                    <p className="popupText">Adicionado com sucesso!</p>
                 </div>
                 <span className={styles.productKind}>
                     <p className={styles.kind}>{product.kind}</p>
@@ -40,8 +50,15 @@ export function FeaturedProductCard ({product}: any)  {
                 <div className={styles.splitter}></div>
                 <p className={styles.latePrice}>De: <span className={styles.printedPrice}>R$ {printedPrice}</span></p>
                 <p className={styles.newPrice}>{`Por: R$ ${product.price}`}</p>
-                <button className={styles.button} onClick={() => insertToCart(product)}>Comprar</button>
+                <button 
+                    className={styles.button} 
+                    onClick={product.inStock >= 1 ? () => insertToCart(product) : () =>  notAnyOnStock()}
+                    >
+                        {product.inStock >= 1 ?
+                            "Adicionar" 
+                            : 
+                            "Avise-me"}
+                </button>
             </div>
-        </>
     )
 }

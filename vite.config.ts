@@ -24,6 +24,7 @@ export default defineConfig({
         wines: resolve(__dirname, 'src/pages/wines.html'),
         cart: resolve(__dirname, 'src/pages/cart.html'),
         myaccount: resolve(__dirname, 'src/pages/myaccount.html'),
+        newslettersuccess: resolve(__dirname, 'src/pages/newslettersuccess.html'),
       }
     }
   }

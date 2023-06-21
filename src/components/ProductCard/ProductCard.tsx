@@ -37,10 +37,16 @@ export function ProductCard ({product}: any)  {
 
     return  (
         <div className={styles.productCard}>
-            <div id="notAnyOnStock" className="popup"  style={{backgroundColor: "red", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+            <div 
+                id="notAnyOnStock"
+                className="popup"
+                style={{backgroundColor: "red", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
                 <p className="popupText">Produto em falta!</p>
             </div>
-            <div id="addedPopup" className="popup"  style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+            <div 
+                id="addedPopup" 
+                className="popup"  
+                style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
                 <p className="popupText">Adicionado ao carrinho!</p>
             </div>
             <span className={product.inStock >= 1 ? styles.inStock : styles.soldOut}>{product.kind}</span>

@@ -1,0 +1,60 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    align-items: center;
+    background-color: $primary;
+    color: $brown;
+    display: flex;
+    flex-direction: column;
+    font-family: $o;
+    gap: 10px;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo   {
+    width: 150px;
+}
+
+.title  {
+    font-size: 48px;
+}
+
+.description    {
+    font-size: 18px;
+    width: 50%;
+}
+
+.link   {
+    background-color: $primary;
+    border-radius: 5px;
+    color: $brown;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 120px;
+
+    transition: 0.4s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+    }
+}
+
+@media  (max-width: 575px)  {
+    .title  {
+        font-size: 36px;
+    }
+
+    .description    {
+        width: 100%;
+    }
+
+    .logo   {
+        width: 120px;
+    }
+}
