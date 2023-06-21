@@ -13,7 +13,7 @@ export function NewsletterSection   ()  {
         
 
         //@ts-ignore
-        if (newsletterEmailInput.value === JSON.parse(localStorage.getItem('newsLetterSubscribed')).email)   {
+        if (newsletterEmailInput.value === JSON.parse(localStorage.getItem('newsLetterSubscribed'))?.email)   {
             alreadyRegisteredPopup.classList.add("open")
 
             setTimeout(() => {
@@ -27,7 +27,7 @@ export function NewsletterSection   ()  {
                 newsletterNameInput.value.length >= 3
                 && newsletterEmailInput.value.length >= 8
                 //@ts-ignore
-                && newsletterEmailInput.value !== JSON.parse(localStorage.getItem('newsLetterSubscribed')).email
+                && newsletterEmailInput.value !== JSON.parse(localStorage.getItem('newsLetterSubscribed'))?.email
             )   {
 
                 newsletterSuccessPopup.classList.add("open")
