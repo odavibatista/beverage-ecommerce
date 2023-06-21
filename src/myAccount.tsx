@@ -5,6 +5,12 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { PageSpinner } from './components/Spinner/Spinner'
 
+//@ts-ignore
+if(JSON.parse(localStorage.getItem('isLoggedIn')) === true) {
+}   else    {
+    window.location.replace("/beverage-ecommerce/")
+}
+
 function App() {
     const [loading, setLoading] = useState(true)
     if(loading) {
@@ -13,6 +19,9 @@ function App() {
         }, 500)
         return <PageSpinner/>
     }
+
+
+
 
     return  (
         <>

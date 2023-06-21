@@ -59,7 +59,13 @@ export function Navbar ()  {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="/src/pages/cart.html" className={styles.navOptions}>
+                    <a href={
+                      //@ts-ignore
+                      JSON.parse(localStorage.getItem('isLoggedIn')) === null || JSON.parse(localStorage.getItem('isLoggedIn')) === false?
+                      "/src/pages/signin.html"
+                      :
+                      "/src/pages/cart.html"
+                      } className={styles.navOptions}>
                       <img src="https://i.imgur.com/L7Xn5WE.png" alt="cartIcon" className={styles.navOptionsIcon} />
                       <p className={styles.navOptionsText}>CARRINHO</p>
                     </a>

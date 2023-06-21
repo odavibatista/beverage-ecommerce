@@ -6,6 +6,12 @@ import { Footer } from './components/Footer/Footer'
 import { CartProducts } from './components/Cart/CartProducts/CartProducts'
 import { PageSpinner } from './components/Spinner/Spinner'
 
+//@ts-ignore
+if(JSON.parse(localStorage.getItem('isLoggedIn')) === true) {
+}   else    {
+    window.location.replace("/beverage-ecommerce/src/pages/signin.html")
+}
+
 function App() {
     const [loading, setLoading] = useState(true)
     if(loading) {
