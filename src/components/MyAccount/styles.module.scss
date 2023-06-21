@@ -62,6 +62,7 @@
     font-family: $msc;
     font-size: 18px;
     padding: 5px 10px;
+    width: 150px;
 
     transition: 0.4s;
     &:hover {
@@ -96,6 +97,30 @@
     border-radius: 15px;
     height: 100%;
     width: 100%;
+}
+
+.changeInfo {
+    align-self: flex-start;
+    font-family: $msc;
+    font-size: 18px;
+    text-align: left;
+}
+
+.changeInputs   {
+    border: none;
+    border-bottom: 2px solid $brown;
+    font-family: $o;
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+    width: 200px;
+
+    transition: 0.05s;
+    &:focus {
+        border-bottom: 2px solid transparent;
+        border-radius: 5px;
+        outline: solid $brown;
+    }
 }
 
 @media  (max-width: 991px)  {

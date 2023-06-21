@@ -25,6 +25,8 @@ export default defineConfig({
         cart: resolve(__dirname, 'src/pages/cart.html'),
         myaccount: resolve(__dirname, 'src/pages/myaccount.html'),
         newslettersuccess: resolve(__dirname, 'src/pages/newslettersuccess.html'),
+        privacypolitics: resolve(__dirname, 'src/pages/privacypolitics.html'),
+        payments: resolve(__dirname, 'src/pages/payments.html')
       }
     }
   }
