@@ -4,6 +4,7 @@ import '../styles/globals.scss'
 import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { PageSpinner } from './components/Spinner/Spinner'
+import { MyAccount } from './components/MyAccount/MyAccount'
 
 //@ts-ignore
 if(JSON.parse(localStorage.getItem('isLoggedIn')) === true) {
@@ -26,6 +27,7 @@ function App() {
     return  (
         <>
             <Navbar/>
+            <MyAccount/>
             <Footer/>
         </>
     )

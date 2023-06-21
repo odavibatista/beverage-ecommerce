@@ -1,0 +1,132 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    background: url('https://images.unsplash.com/photo-1546622891-02c72c1537b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.whiteInformations  {
+    background-color: $wh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    width: 80%;
+}
+
+
+.userDashboard  {
+    align-items: center;
+    background-color: $wh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+
+}
+
+.userPicture    {
+    background-color: $primary;
+    border: 8px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.userName   {
+    border-bottom: 2px solid $brown;
+    font-family: $msc;
+    font-size: 36px;
+}
+
+.userEmail   {
+    font-family: $o;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttons    {
+    background-color: $primary;
+    border: none;
+    border-radius: 5px;
+    color: $brown;
+    font-family: $msc;
+    font-size: 18px;
+    padding: 5px 10px;
+
+    transition: 0.4s;
+    &:hover {
+        background-color: $brown;
+        color: $primary;
+    }
+}
+
+.shopHistory   {
+    align-items: center;
+    background-color: $wh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 32px;
+    width: 430px;
+}
+
+.historyTitle   {
+    color: $brown;
+    font-family: $o;
+    font-size: 36px;
+}
+
+.buyHistory {
+    align-items: center;
+    background-color: $wh;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+@media  (max-width: 991px)  {
+    .whiteInformations  {
+        gap: 20px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .whiteInformations  {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .shopHistory    {
+        border-radius: 0px;
+        border-top: 3px solid $brown;
+        width: 90%;
+    }
+}
+
+@media  (max-width: 425px)  {
+    .userName   {
+        font-size: 24px;
+    }
+
+    .userEmail  {
+        font-size: 18px;
+    }
+
+    .historyTitle   {
+        font-size: 24px;
+    }
+}
