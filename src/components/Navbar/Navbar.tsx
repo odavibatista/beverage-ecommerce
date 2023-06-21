@@ -4,14 +4,14 @@ import { useState } from "react";
 
 export function Navbar ()  {
   const [changeContent, setChangeContent] = useState("+")
-  
+  const [isLoggedin, setLogin] = useState(false)
 
     return(
         <>
           <nav className={" navbar navbar-expand-lg sticky-top flex-column"} style={{backgroundColor: "#F1C376"}}>
             <div className="container-fluid align-items-center justify-content-center" style={{padding: "0 152px", }}>
-              <a href="/"  className={styles.horizontal + " navbar-brand"}>
-                    <img src="../../src/images/logo-old-david.png" alt="shopLogo" className={styles.headerLogo} />
+              <a href="/beverage-ecommerce/"  className={styles.horizontal + " navbar-brand"}>
+                    <img src="https://i.imgur.com/nWSzv3n.png" alt="shopLogo" className={styles.headerLogo} />
                     <h1 className={styles.headerTitle}>Old David's</h1>
               </a>
               <button 
