@@ -10,6 +10,10 @@ export function MyAccount   ()  {
     //@ts-ignore
     const shopHistory: any = JSON.parse(localStorage.getItem('registeredUser')).shopHistory
 
+    function logOut ()  {
+        localStorage.setItem('isLoggedIn', false)
+        window.location.reload()
+    }
 
     
     return(
@@ -20,8 +24,19 @@ export function MyAccount   ()  {
                         <h1 className={styles.userName}>{userName}</h1>
                         <h1 className={styles.userEmail}>{userEmail}</h1>
                         <h1 className={styles.userEmail}>Membro desde: <br/>{userMemberSince}</h1>
-                        <button className={styles.buttons}>Alterar Dados</button>
-                        <button className={styles.buttons}>Logout</button>
+                        <button 
+                        className={styles.buttons}
+                        >
+                            Alterar Dados
+                        </button>
+                        <button 
+                        className={styles.buttons} 
+                        onClick={(event) =>{
+                            event.preventDefault()
+                            logOut()
+                        }}>
+                            Logout
+                        </button>
                     </div>
                     <div className={styles.shopHistory}>
                         <h1 className={styles.historyTitle}>Histórico de Compras</h1>
