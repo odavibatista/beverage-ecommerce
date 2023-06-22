@@ -35,7 +35,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 420px;
+    height: 440px;
     padding: 30px;
     transition: all 0.2s ease-in-out;
     width: 450px;
@@ -46,7 +46,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 420px;
+    height: 440px;
     padding: 30px;
     transition: all 0.2s ease-in-out;
     width: 450px;
@@ -147,6 +147,29 @@
     }
 }
 
+.links  {
+    color: navy;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+        color: gray;
+    }
+}
+
+@media  (max-width: 528px)  {
+    .register   {
+        height: 480px;
+    }
+
+    .terms  {
+        text-align: center;
+    }
+
+    .login   {
+        height: 480px;
+    }
+}
+
 @media  (max-width: 425px)  {
     .label  {
         font-size: 14px;
@@ -154,10 +177,6 @@
 
     .changeStatus   {
         font-size: 14px;
-    }
-
-    .register   {
-        height: 380px;
     }
 
     .h1 {
@@ -168,7 +187,21 @@
         height: 30px;
     }
 
-    .login   {
+    .login  {
         height: 380px;
+    }
+}
+
+@media  (max-width: 375px)  {
+    .section    {
+        padding: 5px;
+    }
+
+    .register   {
+        width: 95%;
+    }
+
+    .login  {
+        width: 95%;
     }
 }

@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     min-height: 200px;
-    padding: 36px 49px;
+    padding: 36px 102px;
 }
 
 .infoSection    {
@@ -33,8 +33,17 @@
 .listing    {
     color: black;
     font-family: $o;
-    height: 25px;
+    height: 40px;
     text-decoration: none;
+
+
+}
+
+.links  {
+    transition: 0.3s;
+    &:hover {
+        color: gray;
+    }
 }
 
 .seal   {

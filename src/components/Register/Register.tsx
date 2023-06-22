@@ -168,6 +168,7 @@ export function Register()  {
                                     event.preventDefault()
                                     registerUser()
                                 }}>Cadastrar-me</button>
+                                <p className={styles.terms}>Ao cadastrar-se, você concorda com os <a href="/src/pages/termsofuse.html" target='_blank' className={styles.links}>Termos de Uso</a> </p>
                         </form>
                     </div>  
                     

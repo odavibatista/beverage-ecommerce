@@ -26,7 +26,8 @@ export default defineConfig({
         myaccount: resolve(__dirname, 'src/pages/myaccount.html'),
         newslettersuccess: resolve(__dirname, 'src/pages/newslettersuccess.html'),
         privacypolitics: resolve(__dirname, 'src/pages/privacypolitics.html'),
-        payments: resolve(__dirname, 'src/pages/payments.html')
+        payments: resolve(__dirname, 'src/pages/payments.html'),
+        termsofufe: resolve(__dirname, 'src/pages/termsofuse.html')
       }
     }
   }

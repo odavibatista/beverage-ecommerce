@@ -1,0 +1,20 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    background-color: $wh;
+    color: $brown;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    padding: 50px 100px;
+
+    h1  {
+        font-family: $msc;
+    }
+
+    p   {
+        font-family: $o;
+    }
+}
