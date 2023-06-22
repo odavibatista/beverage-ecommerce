@@ -19,10 +19,49 @@ export function MyAccount   ()  {
         window.location.reload()
     }
 
+    function updateStatus() {
+        const changeNameInput: any = document.querySelector('#changeNameInput')
+        const changeEmailInput: any = document.querySelector('#changeEmailInput')
+        const changePasswordInput: any = document.querySelector('#changePasswordInput')
+        const updateInfoErrorPopup: any = document.querySelector('#updateInfoErrorPopup')
+        const registerSuccessPopup: any = document.querySelector('#registerSuccessPopup')
+
+        //@ts-ignore
+        let registeredUser: any = JSON.parse(localStorage.getItem('registeredUser'))
+
+        if  (changeNameInput.value.length < 3 || changeEmailInput.value.length < 8 || changePasswordInput.value.length < 8) {
+            updateInfoErrorPopup.classList.add("open")
+
+                setTimeout(() => {
+                    updateInfoErrorPopup.classList.remove("open")
+                }, 2500)
+        }   else    {
+            registerSuccessPopup.classList.add("open")
+
+            setTimeout(() => {
+                registerSuccessPopup.classList.remove("open")
+            }, 2500)
+            registeredUser.name = changeNameInput.value
+            registeredUser.email = changeEmailInput.value
+            registeredUser.password = changePasswordInput.value
+            localStorage.setItem('registeredUser', JSON.stringify(registeredUser))
+
+            setDataStatus("show")
+
+            window.location.reload()
+        }
+    }
+
     const [dataStatus, setDataStatus] = useState("show")
     
     return(
             <section className={styles.section}>
+            <div id="updateInfoErrorPopup" className="popup"  style={{backgroundColor: "red", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+                <p className="popupText">Insira e-mail e nome válidos!</p>
+            </div>
+            <div id="registerSuccessPopup" className='popup' style={{backgroundColor: "green", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+                <p className="popupText">Atualizado com sucesso!</p>
+            </div>
                 <div className={styles.whiteInformations}>
                     {
                     dataStatus === "show" ?
@@ -50,13 +89,17 @@ export function MyAccount   ()  {
                 <div className={styles.userDashboard}>
                     <img src="https://i.imgur.com/Zfkdt2d.png" alt="userIcon" className={styles.userPicture} />
                     <p className={styles.changeInfo}>Nome:</p>
-                    <input type="text" name="changeNameInput" id="changeNameInput" value={userName} className={styles.changeInputs} />
+                    <input type="text" name="changeNameInput" id="changeNameInput"  className={styles.changeInputs} />
                     <p className={styles.changeInfo}>Email:</p>
-                    <input type="text" name="changeEmailInput" id="changeEmailInput" value={userEmail} className={styles.changeInputs} />
+                    <input type="text" name="changeEmailInput" id="changeEmailInput"  className={styles.changeInputs} />
                     <p className={styles.changeInfo}>Senha:</p>
-                    <input type="password" name="changePasswordInput" id="changePasswordInput" value={userPassword} className={styles.changeInputs} />
+                    <input type="password" name="changePasswordInput" id="changePasswordInput"  className={styles.changeInputs} />
                     <button 
                     className={styles.buttons}
+                    onClick={() => {
+                        updateStatus()
+                        
+                    }}
                     >
                         Salvar
                     </button>
