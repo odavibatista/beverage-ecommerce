@@ -7,8 +7,15 @@
     flex-direction: row;
     font-family: $o;
     font-size: 16px;
-    gap: 200px;
+    gap: 180px;
     justify-content: space-between;
     text-transform: uppercase;
     width: 95%;
+}
+
+@media  (max-width: 768px)  {
+    .finishCard{
+        font-size: 12px;
+        gap: 100px;
+    }
 }

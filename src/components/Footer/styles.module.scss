@@ -48,7 +48,7 @@
 
 .seal   {
     background-color: $primary;
-    min-height: 26px;
+    min-height: 10vh;
     width: 100%;
 }
 
@@ -67,6 +67,10 @@
     width: 25px;
 }
 
+#credits    {
+    margin-bottom: -85px;
+}
+
 @media  (max-width: 900px)  {
     .section    {
         align-items: center;
@@ -80,5 +84,17 @@
 @media  (max-width: 685px)  {
     .sealText   {
         font-size: 12px;
+    }
+}
+
+@media  (max-width: 552px)  {
+    .section    {
+        gap: 100px;
+    }
+}
+
+@media  (max-width: 485px)  {
+    .seal   {
+        height: 15vh;
     }
 }

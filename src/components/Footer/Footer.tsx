@@ -17,7 +17,7 @@ export function Footer   ()  {
                     <a target="_blank" href="/src/pages/termsofuse.html" className={styles.listing + " " + styles.links}>Termos de Uso</a>
                 </div>
                 <div className={styles.infoSection}>
-                    <h1 className={styles.infoTitle} style={{marginTop: "-85px"}}>Créditos</h1>
+                    <h1 className={styles.infoTitle} style={{marginTop: "-85px"}} id="credits">Créditos</h1>
                     <a href="https://icons8.com" target="_blank" className={styles.listing + " " + styles.links}>Icons by Icons8</a>
                     <a href="https://unsplash.com/pt-br" target="_blank" className={styles.listing + " " + styles.links}>Images by Unsplash</a>
                 </div>

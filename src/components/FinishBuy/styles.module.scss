@@ -57,6 +57,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 60px;
     width: 50%;
@@ -124,5 +125,41 @@
     &:hover {
         background-color: $secondary;
         color: $brown;
+    }
+}
+
+
+@media  (max-width: 1024px) {
+    .resume {
+        width: 90%;
+    }
+
+    .address    {
+        width: 90%;
+    }
+    
+    .contact    {
+        width: 90%;
+        padding: 60px 20px;
+    }
+}
+
+@media  (max-width: 575px)  {
+    .section    {
+        padding: 12px;
+    }
+}
+
+@media  (max-width: 475px)  {
+    .textInputs {
+        width: 100%;
+    }
+
+    .address    {
+        flex-direction: column;
+    }
+
+    .separation {
+        flex-direction: column;
     }
 }
