@@ -123,6 +123,12 @@
     }
 }
 
+.salesHistory   {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 @media  (max-width: 991px)  {
     .whiteInformations  {
         gap: 20px;

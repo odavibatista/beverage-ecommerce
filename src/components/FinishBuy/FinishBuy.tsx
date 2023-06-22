@@ -1,3 +1,4 @@
+import { Product } from "../../Classes/Product";
 import { FinishCard } from "./FinishCard/Finishlist";
 import styles from "./styles.module.scss"
 
@@ -11,7 +12,7 @@ export function FinishBuy   ()  {
     //@ts-ignore
     let localStorageData = JSON.parse(localStorage.getItem('localStorageData'))
     //@ts-ignore
-    const finishCards =   localStorageData.map(products => <FinishCard product={products} /> );
+    const finishCards: any   =  localStorageData.map(products => <FinishCard product={products} /> );
 
     const totalPrice:   number[]    =   []
     //@ts-ignore
@@ -67,14 +68,30 @@ export function FinishBuy   ()  {
                 
                 shopHistory.push(saleResume)
                 localStorage.setItem("shopHistoryData", JSON.stringify(shopHistory))
+                const clearedCart: Product[] = []
+                localStorage.setItem("localStorageData", JSON.stringify(clearedCart))
+
+                setTimeout(() => {
+                    //@ts-ignore
+                    window.location.reload(true)
+                    window.location.replace("/src/pages/salesuccess.html")
+                }, 300)
                 
             }   else    {
-                console.log('Preencha os campos!')
+                const saleFailPopup: any = document.querySelector("#saleFailPopup")
+
+                saleFailPopup.classList.add("open")
+                setTimeout(() => {
+                    saleFailPopup.classList.remove("open")
+            }, 2500) 
             }
         }
 
     return  (
         <section className={styles.section}>
+            <div id="saleFailPopup" className='popup' style={{backgroundColor: "red", padding: "20px", width:"300px", height:"40px", margin: "20px", position: "fixed", bottom: 0, left:  0}}>
+                <p className="popupText">Preencha os campos obrigatórios!</p>
+            </div>
             <div className={styles.address}>
                 <h1 className={styles.titles}>Endereço de Entrega</h1>
                 <form className={styles.addressForm}>
@@ -102,7 +119,7 @@ export function FinishBuy   ()  {
                 <h1 className={styles.titles}>Informações para Contato</h1>
                 <form className={styles.contactForm}>
                     <div className={styles.separation}>
-                        <label htmlFor="phoneNumber" className={styles.labels}>Telefone/Celular:</label>
+                        <label htmlFor="phoneNumber" className={styles.labels}>Telefone/Celular:*</label>
                         <input type="text" id="phoneNumber" name="phoneNumber" maxLength={15} className={styles.textInputs} style={{width: "200px"}}/>
                     </div>
                     <div className={styles.checkboxContainer}>

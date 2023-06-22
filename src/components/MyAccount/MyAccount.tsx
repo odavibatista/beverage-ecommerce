@@ -120,8 +120,8 @@ export function MyAccount   ()  {
                             {shopHistory.length < 1 ?
                             <p>Você ainda não fez compras! Que tal ver as ofertas?</p>
                             :
-                            <div>
-                                <p>{shopHistoryRender}</p>
+                            <div className={styles.salesHistory}>
+                                {shopHistoryRender}
                             </div>
                             }
                         </div>
