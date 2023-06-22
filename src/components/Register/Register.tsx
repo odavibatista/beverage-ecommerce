@@ -98,9 +98,10 @@ export function Register()  {
         const loginPassword: any = document.getElementById('loginPassword')
 
         if  (//@ts-ignore
-            loginEmail.value === JSON.parse(localStorage.getItem('registeredUser')).email   &&
+            loginEmail.value === JSON.parse(localStorage.getItem('registeredUser'))?.email
             //@ts-ignore
-            loginPassword.value === JSON.parse(localStorage.getItem('registeredUser')).password )   {
+            && loginPassword.value === JSON.parse(localStorage.getItem('registeredUser'))?.password
+            )   {
                 const loginSuccessPopup: any = document.querySelector('#loginSuccessPopup')
                 
                 loginSuccessPopup.classList.add("open")
@@ -117,7 +118,14 @@ export function Register()  {
                     window.location.reload(true)
                     window.location.replace("/beverage-ecommerce/")
                 }, 300)
-        }   else    {
+        }   else if(
+            loginPassword.value.length < 3
+            || loginEmail.value.length < 8
+            //@ts-ignore
+            || loginEmail.value !== JSON.parse(localStorage.getItem('registeredUser'))?.email
+            //@ts-ignore
+            || loginPassword.value !== JSON.parse(localStorage.getItem('registeredUser'))?.password
+            )    {
             turnToRedLogin()
             const loginFailPopup: any = document.querySelector("#loginFailPopup")
 
