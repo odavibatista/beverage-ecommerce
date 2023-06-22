@@ -32,7 +32,7 @@ export function CartProducts ()    {
                             <p className={styles.totalText}>Total</p>
                             <p className={styles.totalAmount}>R$ {totalValue}</p>
                         </div>
-                        <button className={styles.finishSale}>Finalizar compra</button>
+                        <a href="/src/pages/finishbuy.html" className={styles.finishSale}>Finalizar compra</a>
                     </div>
                 }
             </section>

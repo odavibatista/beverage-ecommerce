@@ -1,0 +1,128 @@
+@import '../../../styles/colors.module.scss';
+@import '../../../styles/fonts.module.scss';
+
+.section    {
+    align-items: center;
+    background-color: $wh;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.titles {
+    border-bottom: 3px solid $brown;
+    font-family: $msc;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 95%;
+}
+
+.address    {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    width: 50%;
+}
+
+.addressForm    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.labels {
+    font-family: $o;
+    font-size: 14px;
+}
+
+.textInputs {
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+
+    transition: 0.05s;
+    &:focus {
+        border-bottom: none;
+        border-radius: 5px;
+        outline: 2px solid $brown;
+    }
+}
+
+.contact    {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    width: 50%;
+}
+
+.contactForm    {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.separation {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.checkboxContainer  {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.resume {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    width: 50%;
+}
+
+.saleTotal  {
+    align-items: center;
+    align-self: center;
+    background-color: $primary;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: $o;
+    justify-content: space-between;
+    padding: 20px 10px 5px 10px;
+    text-transform: uppercase;
+    width: 94%;
+}
+
+.finishButton   {
+    border: none;
+    background-color: $brown;
+    border-radius: 10px;
+    color: $primary;
+    font-family: $msc;
+    margin-top: 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 94%;
+
+    transition: 0.3s;
+    &:hover {
+        background-color: $secondary;
+        color: $brown;
+    }
+}

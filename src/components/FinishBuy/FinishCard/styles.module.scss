@@ -1,0 +1,12 @@
+@import '../../../../styles/colors.module.scss';
+@import '../../../../styles/fonts.module.scss';
+
+.finishCard {
+    border-bottom: 1px solid $brown;
+    display: flex;
+    flex-direction: row;
+    font-family: $o;
+    font-size: 18px;
+    gap: 200px;
+    text-transform: uppercase;
+}
