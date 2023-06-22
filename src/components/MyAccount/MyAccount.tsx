@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './styles.module.scss'
+import { HistorySales } from './HistorySales/HistorySales'
 
 export function MyAccount   ()  {
     //@ts-ignore
@@ -9,9 +10,12 @@ export function MyAccount   ()  {
     //@ts-ignore
     const userMemberSince: any = JSON.parse(localStorage.getItem('registeredUser')).memberSince
     //@ts-ignore
-    const shopHistory: any = JSON.parse(localStorage.getItem('registeredUser')).shopHistory
+    const shopHistory: any = JSON.parse(localStorage.getItem('shopHistoryData'))
     //@ts-ignore
     const userPassword: any = JSON.parse(localStorage.getItem('registeredUser')).password
+
+    //@ts-ignore
+    const shopHistoryRender: any = shopHistory.map((sales) => <HistorySales sale={sales}/>)
 
     function logOut ()  {
         //@ts-ignore
@@ -116,7 +120,9 @@ export function MyAccount   ()  {
                             {shopHistory.length < 1 ?
                             <p>Você ainda não fez compras! Que tal ver as ofertas?</p>
                             :
-                            <p>A</p>
+                            <div>
+                                <p>{shopHistoryRender}</p>
+                            </div>
                             }
                         </div>
                     </div>

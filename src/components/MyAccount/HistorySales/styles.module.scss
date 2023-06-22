@@ -1,0 +1,13 @@
+@import '../../../../styles/colors.module.scss';
+@import '../../../../styles/fonts.module.scss';
+
+.historySales   {
+    align-items: center;
+    border-bottom: 2px solid $brown;
+    display: flex;
+    flex-direction: row;
+    font-family: $o;
+    font-size: 14px;
+    gap: 100px;
+    justify-content: center;
+}

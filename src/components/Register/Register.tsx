@@ -46,18 +46,19 @@ export function Register()  {
         const nameInput: any = document.getElementById('nameInput')
         const emailInput: any = document.getElementById('emailInput')
         const passwordInput: any = document.getElementById('passwordInput')
-        const memberSinceDay: any = new Date().getDay()
-        const memberSinceMonth: any = new Date().getMonth()
-        const memberSinceYear: any = new Date().getFullYear()
+        const date = new Date()
+        const clearedInfo: any[] = []
+        localStorage.setItem('shopHistoryData', JSON.stringify(clearedInfo))
+        localStorage.setItem('localStorageData', JSON.stringify(clearedInfo))
     
-        if(nameInput.value.length >= 3 && emailInput.checkValidity() && passwordInput.value.length >= 8)    {
+        if  (nameInput.value.length >= 3 && emailInput.checkValidity() && passwordInput.value.length >= 8)    {
             backToOriginalColorRegister()
 
             const userInfo = {
                 name: nameInput.value,
                 email: emailInput.value,
                 password: passwordInput.value,
-                memberSince: `${memberSinceDay}/${memberSinceMonth}/${memberSinceYear}`,
+                memberSince: `${date.getDate()}/${date.getUTCMonth()+1}/${date.getFullYear()}`,
                 shopHistory: []
             }
 
