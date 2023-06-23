@@ -9,7 +9,7 @@ Welcome to the new version of Old David's Beverage Shop!
 </div>
 <br>
 
-On this new version, I recreate this project's visual appearence and functionalities.
+On this new version, I recreated this project's visual appearence and functionalities.
 This project is a favorite of mine, since its first version was one of the first works on front-end development I've done when I started studying.
 For that, I recreated it entirely, preserving the original idea, but giving the site a new mockup and new ways of working by itself.
 With that, Old David's Shop is entirely remodeled with many new features and technologies.
@@ -26,7 +26,7 @@ You can also check the project's wireframe <a href="https://www.figma.com/file/F
 - Git;
 - Imgur;
 - O.O.P.;
-- React;
+- React (Vanilla);
 - SCSS;
 - SplideJS / ReactSplide;
 - TypeScript;
@@ -36,7 +36,7 @@ You can also check the project's wireframe <a href="https://www.figma.com/file/F
 # Credits to other parties
 - Icons8 (Icons used on the site's navbar and newsletter): https://icons8.com/ ;
 - UnSplash (Some of the images used on the site's banners and carousel);
-- Products have its correponding sources.
+- Products have its correponding sources by its names.
 
 <br>
 <div align="center">
